@@ -21,56 +21,125 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{alma991021857289706535}
-M.~Young, \emph{\BIBforeignlanguage{eng}{The technical writer's handbook :
-  writing with style and clarity}}.\hskip 1em plus 0.5em minus 0.4em\relax
-  Sausalito, CA: University Science Books, 2002.
-
-\bibitem{IEEEexample:book}
-S.~M. Metev and V.~P. Veiko, \emph{Laser Assisted Microtechnology}, 2nd~ed.,
-  R.~M. Osgood, Jr., Ed.\hskip 1em plus 0.5em minus 0.4em\relax Berlin,
-  Germany: Springer-Verlag, 1998.
-
-\bibitem{IEEEexample:inbook}
-H.~E. Rose, \emph{A Course in Number Theory}.\hskip 1em plus 0.5em minus
-  0.4em\relax New York, NY: Oxford Univ. Press, 1988, ch.~3.
-
-\bibitem{IEEEexample:incollectionwithseries}
-J.~B. Anderson and K.~Tepe, ``Properties of the tailbiting {BCJR} decoder,'' in
-  \emph{Codes, Systems and Graphical Models}, ser. {IMA} Volumes in Mathematics
-  and Its Applications.\hskip 1em plus 0.5em minus 0.4em\relax New York:
-  Springer-Verlag, 2000.
-
-\bibitem{IEEEexample:unpublished}
-T.~J. Ott and N.~Aggarwal, ``{TCP} over {ATM}: {ABR} or {UBR},'' unpublished.
-
-\bibitem{IEEEexample:conf_typical}
-R.~K. Gupta and S.~D. Senturia, ``Pull-in time dynamics as a measure of
-  absolute pressure,'' in \emph{Proc. {IEEE} International Workshop on
-  Microelectromechanical Systems ({MEMS}'97)}, Nagoya, Japan, Jan. 1997, pp.
-  290--294.
-
-\bibitem{IEEEexample:articlelargepages}
-A.~Castaldini, A.~Cavallini, B.~Fraboni, P.~Fernandez, and J.~Piqueras,
-  ``Midgap traps related to compensation processes in {CdTe} alloys,''
-  \emph{Phys. Rev. B.}, vol.~56, no.~23, pp. 14\,897--14\,900, 1997.
-
-\bibitem{IEEEexample:incollection_chpp}
-P.~Hedelin, P.~Knagenhjelm, and M.~Skoglund, ``Theory for transmission of
-  vector quantization data,'' in \emph{Speech Coding and Synthesis}, W.~B.
-  Kleijn and K.~K. Paliwal, Eds.\hskip 1em plus 0.5em minus 0.4em\relax
-  Amsterdam, The Netherlands: Elsevier Science, 1995, ch.~10, pp. 347--396.
-
-\bibitem{IEEEexample:phdurl}
+\bibitem{KPMG.2022}
 \BIBentryALTinterwordspacing
-Q.~Li, ``Delay characterization and performance control of wide-area
-  networks,'' Ph.D. dissertation, Univ. of Delaware, Newark, May 2000.
-  [Online]. Available: \url{http://www.ece.udel.edu/~qli}
+KPMG, ``Nutzung von cloud computing in unternehmen in deutschland in den jahren
+  2011 bis 2022,'' 2022. [Online]. Available:
+  \url{\url{https://de.statista.com/statistik/daten/studie/177484/umfrage/einsatz-von-cloud-computing-in-deutschen-unternehmen-2011/}}
 \BIBentrySTDinterwordspacing
 
-\bibitem{IEEEexample:techrep}
-R.~Jain, K.~K. Ramakrishnan, and D.~M. Chiu, ``Congestion avoidance in computer
-  networks with a connectionless network layer,'' Digital Equipment
-  Corporation, MA, Tech. Rep. DEC-TR-506, Aug. 1987.
+\bibitem{Surianarayanan.2023b}
+C.~Surianarayanan and P.~R. Chelliah, ``Introduction to cloud computing,'' in
+  \emph{Essentials of Cloud Computing}, ser. Texts in Computer Science,
+  C.~Surianarayanan and P.~R. Chelliah, Eds.\hskip 1em plus 0.5em minus
+  0.4em\relax Cham: {Springer International Publishing} and {Imprint:
+  Springer}, 2023, pp. 1--38.
+
+\bibitem{Kuzina.2023}
+V.~Ku{\v{z}}ina, A.-M. Petric, M.~Bari{\v{s}}i{\'c}, and A.~Jovi{\'c},
+  ``Cassed: Context-based approach for structured sensitive data detection,''
+  \emph{Expert Systems with Applications}, vol. 223, p. 119924, 2023.
+
+\bibitem{Alneyadi.2016}
+S.~Alneyadi, E.~Sithirasenan, and V.~Muthukkumarasamy, ``A survey on data
+  leakage prevention systems,'' \emph{Journal of Network and Computer
+  Applications}, vol.~62, pp. 137--152, 2016.
+
+\bibitem{CATechnologies.2018}
+\BIBentryALTinterwordspacing
+{CA Technologies}, ``2018 insider threat report,'' 2018. [Online]. Available:
+  \url{\url{https://crowdresearchpartners.com/wp-content/uploads/2017/07/Insider-Threat-Report-2018.pdf}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Chugh.2023}
+\BIBentryALTinterwordspacing
+R.~Chugh and A.~Bales, ``Marktf{\"u}hrer f{\"u}r data loss prevention,'' 2023.
+  [Online]. Available:
+  \url{\url{https://www.gartner.com/doc/reprints?id=1-2EYVL2C2\&ct=230912\&st=sb}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{CloudSecurityAlliance.2022}
+\BIBentryALTinterwordspacing
+{Cloud Security Alliance}, ``Top threats to cloud computing pandemic eleven,''
+  2022. [Online]. Available:
+  \url{\url{https://cloudsecurityalliance.org/artifacts/top-threats-to-cloud-computing-pandemic-eleven}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Whittaker.2023}
+\BIBentryALTinterwordspacing
+Z.~Whittaker, ``Toyota confirms another years-long data leak, this time
+  exposing at least 260,000 car owners,'' \emph{TechCrunch}, 31.05.2023.
+  [Online]. Available:
+  \url{\url{https://techcrunch.com/2023/05/31/toyota-customer-data-leak-years/}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{PSNI.2023}
+\BIBentryALTinterwordspacing
+PSNI, ``Police service of northern ireland statement on data breach | psni,''
+  12.11.2023. [Online]. Available:
+  \url{\url{https://www.psni.police.uk/latest-news/police-service-northern-ireland-statement-data-breach}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Trabelsi.2019}
+S.~Trabelsi, ``Monitoring leaked confidential data,'' in \emph{2019 10th IFIP
+  International Conference on New Technologies, Mobility and Security (NTMS)},
+  IEEE, Ed., 2019, pp. 1--5.
+
+\bibitem{Brindha.2015}
+T.~Brindha and R.~S. Shaji, ``An analysis of data leakage and prevention
+  techniques in cloud environment,'' in \emph{2015 International Conference on
+  Control, Instrumentation, Communication and Computational Technologies
+  (ICCICCT)}, IEEE, Ed.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp.
+  350--355.
+
+\bibitem{Proofpoint.2021b}
+\BIBentryALTinterwordspacing
+Proofpoint, ``Dlp - data loss prevention: Schutz vor datenverlust | proofpoint
+  de,'' 2021. [Online]. Available:
+  \url{\url{https://www.proofpoint.com/de/threat-reference/dlp}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Monev.2023}
+V.~Monev, ``Data leakage prevention in iso 27001: Compliance and
+  implementation,'' in \emph{2023 International Conference on Information
+  Technologies (InfoTech)}, IEEE, Ed.\hskip 1em plus 0.5em minus 0.4em\relax
+  IEEE, 2023, pp. 1--5.
+
+\bibitem{NIST.2014}
+\BIBentryALTinterwordspacing
+NIST, ``Framework for improving critical infrastructure cybersecurity,'' 2014.
+  [Online]. Available:
+  \url{\url{https://www.nist.gov/system/files/documents/cyberframework/cybersecurity-framework-021214.pdf}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Hussain.2022}
+M.~E. Hussain and R.~Hussain, ``Cloud security as a service using data loss
+  prevention: Challenges and solution,'' in \emph{Internet of Things and
+  Connected Technologies}, ser. Lecture Notes in Networks and Systems,
+  R.~Misra, N.~Kesswani, M.~Rajarajan, B.~Veeravalli, and A.~Patel, Eds.\hskip
+  1em plus 0.5em minus 0.4em\relax Cham: {Springer International Publishing}
+  and {Imprint: Springer}, 2022, vol. 340, pp. 98--106.
+
+\bibitem{HerreraMontano.2022}
+I.~{Herrera Montano}, J.~J. {Garc{\'i}a Aranda}, J.~{Ramos Diaz}, S.~{Molina
+  Card{\'i}n}, I.~de~{La Torre D{\'i}ez}, and J.~J. P.~C. Rodrigues, ``Survey
+  of techniques on data leakage protection and methods to address the insider
+  threat,'' \emph{Cluster Computing}, vol.~25, no.~6, pp. 4289--4302, 2022.
+
+\bibitem{Shishodia.2022}
+B.~S. Shishodia and M.~J. Nene, ``Data leakage prevention system for internal
+  security,'' in \emph{2022 International Conference on Futuristic Technologies
+  (INCOFT)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2022, pp. 1--6.
+
+\bibitem{Gartner.2023}
+\BIBentryALTinterwordspacing
+Gartner, ``Umsatz mit software-as-a-service (saas) weltweit von 2010 bis 2022
+  und prognose bis 2024 (in milliarden us-dollar),'' 2023. [Online]. Available:
+  \url{\url{https://de.statista.com/statistik/daten/studie/194117/umfrage/umsatz-mit-software-as-a-service-weltweit-seit-2010/}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Hauer.2015}
+B.~Hauer, ``Data and information leakage prevention within the scope of
+  information security,'' \emph{IEEE Access}, vol.~3, pp. 2554--2565, 2015.
 
 \end{thebibliography}

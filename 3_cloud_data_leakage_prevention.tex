@@ -1,0 +1,68 @@
+% Aufnahme Data Leakage Prevention in ISO
+Im vorherigen Kapitel \ref{threat-kapitel} über die Bedrohung durch versehentliche Datenoffenlegung wurden deutlich, wie schnell ein Datenleck in Unternehmen auftreten kann. Die Bedeutung effektiver Maßnahmen zur Vermeidung von Datenlecks hat sich aufgrund der wachsenden Datenmengen und des damit verbundenen Risikos einer Datenschutzverletzung erhöht. Dieser Bedarf wurde 2022 erkannt, als in der neuesten Version der Norm ISO 27001:2022 die Data Leakage Prevention eingeführt wurde. Die internationale Norm ISO 27001 definiert die Bedingungen für die Einrichtung, Umsetzung und kontinuierliche Verbesserung eines dokumentierten Informationssicherheits-Managementsystems. Die Norm gibt außerdem Vorschriften für die Beurteilung und Behandlung von Informationssicherheitsrisiken, die an die spezifischen Bedürfnisse jedes Unternehmens angepasst werden müssen \cite{Monev.2023}.
+% DLP Abkürzung vorher schon eingeführt?
+Ein Datenleck kann auf verschiedene Weise auftreten. Trotz der Tatsache, dass es nicht immer möglich ist, das Auftreten vollständig zu verhindern, können Maßnahmen ergriffen werden, um die Wahrscheinlichkeit eines Auftretens zu verringern. Diese Maßnahmen werden als Data Leakage Prevention (DLP) bezeichnet \cite{Monev.2023}. Dabei handelt es sich um eine Reihe von Technologien, Produkten und Methoden, die dazu dienen, zu verhindern, dass vertrauliche Informationen ein Unternehmen verlassen. In den letzten Jahrzehnten wurden verschiedene Sicherheitssysteme wie Firewalls, Intrusion-Detection-Systeme (Einbrucherkennung) und virtuelle private Netzwerke (VPN) eingeführt, um das Risiko von Datenlecks zu reduzieren. Wenn die zu schützenden Daten klar definiert, strukturiert und konstant sind, erfüllen diese Systeme ihren Zweck. Jedoch sind sie unzuverlässig für Daten, die sich ändern oder unstrukturiert sind. Durch einfache Regeln kann beispielsweise eine Firewall den Zugriff auf ein sensibles Datenobjekt verhindern. Die Firewall erkennt jedoch nicht, wenn das Datenobjekt über einen E-Mail-Anhang gesendet wird. DLP-Systeme hingegen sind darauf spezialisiert, vertrauliche Daten zu identifizieren, zu überwachen und zu schützen und unerwünschte Datenbewegungen zu verhindern.\cite{Alneyadi.2016}.
+
+\subsection{Cloud Data Leakage Prevention System}
+Ein DLP-System umfasst eine Reihe von Regeln und Richtlinien, die Daten nach ihrem Typ klassifizieren, um sicherzustellen, dass sie nicht böswillig oder versehentlich weitergegeben werden. Das System überwacht Endbenutzeraktivitäten, den Datenfluss sowie die über das Netzwerk gesendeten Daten. Wenn verdächtige Aktivitäten erkannt werden, wird eine Systemwarnung ausgelöst. DLP-Lösungen identifizieren sensible Inhalte mithilfe von Datenklassifizierungs-Label, Techniken zur Inspektion von Inhalten und Kontextanalysen. Sie überwachen die Datenaktivität und kontrollieren sie anhand vordefinierter DLP-Richtlinien. Die Richtlinien definieren, ob die Verwendung bestimmter Inhalte oder Daten in bestimmten Situationen erlaubt sind \cite{Chugh.2023}.
+
+Gartner klassifiziert DLP-Lösungen in drei Kategorien. Eine Enterprise-DLP-Lösung ist ein zentrales System, das darauf ausgelegt ist, komplexe Anforderungen und Strukturen großer Unternehmen zu bewältigen. Sie verfügt über fortschrittliche Technologien zur Identifikation, Klassifizierung und Markierung sensibler Daten und ist in der Lage, verschiedene Datenquellen zu integrieren. So kann diese Lösung den gesamten Lebenszyklus von Daten in einem Unternehmen abdecken. DLP-Richtlinien werden dabei an zentraler Stelle verwaltet und durchgesetzt.
+Dagegen werden integrierte DLP-Lösungen direkt in einen Dienst, wie bspw. ein E-Mail-Gateway, integriert und verfügen deshalb nur über begrenzte Richtlinienfunktionen. Das Management von mehreren integrierten DLP-Systemen ist ein manueller Aufwand, jedoch werden diese Systeme im jeweiligen Dienst speziell an die Anforderungen angepasst und können Inhaltsüberprüfungen besser durchführen.
+Cloud-native DLP-Lösungen sind die dritte Kategorie, zu der sowohl SaaS-Lösungen als auch Cloud-Anbieter mit integrierten DLP-Funktionen gehören. Sie sind speziell für den Einsatz in Cloud-Umgebungen entwickelt und darauf ausgerichtet, sensible Daten in Cloud-Diensten zu schützen. Diese Lösungen verfügen über Mechanismen zur automatischen Erkennung von sensiblen Daten, die in Cloud-Anwendungen und -Speicherplätzen gespeichert sind. Dies umfasst die Identifikation von Daten in Form von Dokumenten, E-Mails, Datenbanken und anderen Formaten \cite{Chugh.2023}.
+Im weiteren Verlauf der Arbeit wird der Begriff DLP-System für alle drei Kategorien verwendet.
+
+% Aufbau / Funktionen
+% Bild von NIST oder DLP Funktionen einfügen?
+Das Cybersecurity Framework des National Institute of Standards and Technology (NIST CSF) bietet freiwillige Standards und Best Practices, die Unternehmen dabei helfen, Cybersecurity-Risiken zu managen und zu reduzieren. Es gibt Unternehmen eine Struktur, um ihre aktuelle Cybersicherheitssituation zu bewerten, verbesserungsbedürftige Bereiche zu identifizieren, Maßnahmen zu priorisieren, Fortschritte zu bewerten und mit den Stakeholdern zu kommunizieren. Die CSF besteht aus fünf Kernfunktionen: Identifizieren, Schützen, Erkennen, Reagieren und Wiederherstellen.
+DLP-Systeme konzentrieren sich hauptsächlich auf die Identifizierung, die Erkennung und den Schutz und ergänzen diese Funktionen durch den Bereich der Überwachung. Die spezifischen Funktionen eines DLP-Systems können je nach Hersteller variieren \cite{NIST.2014}.
+
+% TODO: Literatur-Recherche  + Ergebnisse als Tabelle darstellen?
+Die Literatur-Recherche ergab die folgende Auswahl an Best-Practises, die in DLP-Systemen eingesetzt werden sollten. Um sensible Daten schützen zu können, müssen diese zuerst identifiziert werden. Die Aufgabe besteht darin, ein Dateninventar zu erstellen, die Daten nach ihrer Sensibilität zu klassifizieren und sie entsprechend zu kennzeichnen. Zum Schutz der sensiblen Daten sollten Maßnahmen ergriffen werden, die den Zugriff auf die Daten einschränken. Das bedeutet, dass Richtlinien wie minimale Zugriffsrechte, starke Authentifizierungsmethoden und strenge Zugriffskontrolllisten eingeführt werden sollten. Außerdem sollten Daten sowohl im Ruhezustand als auch während der Übertragung verschlüsselt werden. So wird sichergestellt, dass die Daten selbst dann, wenn sie abgefangen werden, für unbefugte Benutzer unlesbar bleiben. Zusätzlich sollte ein DLP-System die Datenströme innerhalb und nach außen überwachen, um potenzielle Datenschutzverletzungen oder Richtlinienverstöße in Echtzeit erkennen zu können. Dies ermöglicht eine schnelle Reaktion auf potenzielle Probleme und begrenzt den daraus resultierenden Schaden \cite{Hussain.2022}\cite{HerreraMontano.2022}\cite{Shishodia.2022}. % es gibt noch weitere Möglichkeiten?
+
+% Herausforderung Daten Klassifizierung
+Die Funktionen eines DLP-Systems basieren alle darauf, dass sensible Daten erkannt und in irgendeiner Art markiert sind. Derr erste Schritt bei DLP-Systemen ist daher die Identifizierung sensibler Daten. Es gibt verschiedene Strategien und Methoden zur Klassifizierung dieser Daten, die durch den Einsatz von KI weiter verbessert wurden.
+
+\subsection{Erkennung von sensiblen Daten}
+% Warum Datenklassifizierung? 
+% TODO: SaaS schon eingeführt?
+Unternehmen setzen immer mehr auf SaaS-Produkte, anstatt sie als Produkt zu kaufen \cite{Gartner.2023}. In ihrem Tagesgeschäft verlassen sich Unternehmen oft auf mehrere Softwareprodukte, um verschiedene Anforderungen zu erfüllen. Das hat zur Folge, dass die Daten des Unternehmens über verschiedene Apps und Cloud-Plattformen verstreut sind. Die Herausforderung besteht darin, den Überblick zu behalten und zu wissen, wo sich die sensiblen Daten befinden. Das Sammeln und Identifizieren von Daten in DLP-Systemen stellt aufgrund von Verschlüsselung, verborgenen Kanälen, nicht unterstützten Datenformaten und großer Mengen an Daten eine große Herausforderung dar \cite{Hauer.2015}.
+
+Die Methoden zur Erkennung und Klassifizierung von sensiblen Daten unterscheiden sich je nach Art und Format der Daten, sowie deren Zustand. Außerdem gibt es die Möglichkeit, Daten manuell oder automatisiert zu klassifizieren.
+
+\subsubsection{Daten Art und Format}
+% Art -> welche Kategorien
+
+% Format -> structured, unstructured
+
+\subsubsection{Daten Zustand}
+% Stati von Daten (in Rest, in Motion etc.)
+
+\subsubsection{Manuelle Datenklassifizierung}
+% Warum manuell
+
+% warum schwierig (aufwändig, fehlerbehaftet, Big Data)
+
+\subsubsection{Automatische Datenklassifizierung}
+% warum automatisiert
+
+% wie automatisiert
+
+% content vs. context statt rule/model/context
+
+\paragraph{content-based}
+
+\paragraph{context-based}
+
+
+
+\subsection{Anwendung in der Cloud Security}
+% wofür ist das dann gut
+
+\subsubsection{Labeling für andere Maßnahmen}
+% verschlüsselung
+% Access Rights
+% Versenden
+
+\subsubsection{Anwendungsbeispiele}
+% BrowserFlow
+% DocGuard?

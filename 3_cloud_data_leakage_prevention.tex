@@ -4,7 +4,7 @@ Im vorherigen Kapitel \ref{threat-kapitel} über die Bedrohung durch versehentli
 Ein Datenleck kann auf verschiedene Weise auftreten. Trotz der Tatsache, dass es nicht immer möglich ist, das Auftreten vollständig zu verhindern, können Maßnahmen ergriffen werden, um die Wahrscheinlichkeit eines Auftretens zu verringern. Diese Maßnahmen werden als Data Leakage Prevention (DLP) bezeichnet \cite{Monev.2023}. Dabei handelt es sich um eine Reihe von Technologien, Produkten und Methoden, die dazu dienen, zu verhindern, dass vertrauliche Informationen ein Unternehmen verlassen. In den letzten Jahrzehnten wurden verschiedene Sicherheitssysteme wie Firewalls, Intrusion-Detection-Systeme (Einbrucherkennung) und virtuelle private Netzwerke (VPN) eingeführt, um das Risiko von Datenlecks zu reduzieren. Wenn die zu schützenden Daten klar definiert, strukturiert und konstant sind, erfüllen diese Systeme ihren Zweck. Jedoch sind sie unzuverlässig für Daten, die sich ändern oder unstrukturiert sind. Durch einfache Regeln kann beispielsweise eine Firewall den Zugriff auf ein sensibles Datenobjekt verhindern. Die Firewall erkennt jedoch nicht, wenn das Datenobjekt über einen E-Mail-Anhang gesendet wird. DLP-Systeme hingegen sind darauf spezialisiert, vertrauliche Daten zu identifizieren, zu überwachen und zu schützen und unerwünschte Datenbewegungen zu verhindern.\cite{Alneyadi.2016}.
 
 \subsection{Cloud Data Leakage Prevention System}
-Ein DLP-System umfasst eine Reihe von Regeln und Richtlinien, die Daten nach ihrem Typ klassifizieren, um sicherzustellen, dass sie nicht böswillig oder versehentlich weitergegeben werden. Das System überwacht Endbenutzeraktivitäten, den Datenfluss sowie die über das Netzwerk gesendeten Daten. Wenn verdächtige Aktivitäten erkannt werden, wird eine Systemwarnung ausgelöst. DLP-Lösungen identifizieren sensible Inhalte mithilfe von Datenklassifizierungs-Label, Techniken zur Inspektion von Inhalten und Kontextanalysen. Sie überwachen die Datenaktivität und kontrollieren sie anhand vordefinierter DLP-Richtlinien. Die Richtlinien definieren, ob die Verwendung bestimmter Inhalte oder Daten in bestimmten Situationen erlaubt sind \cite{Chugh.2023}.
+Ein DLP-System umfasst eine Reihe von Regeln und Richtlinien, die Daten nach ihrem Typ klassifizieren, um sicherzustellen, dass sie nicht böswillig oder versehentlich weitergegeben werden. Das System überwacht Endbenutzeraktivitäten, den Datenfluss sowie die über das Netzwerk gesendeten Daten. Wenn verdächtige Aktivitäten erkannt werden, wird eine Systemwarnung ausgelöst. DLP-Lösungen identifizieren sensible Inhalte mithilfe von Datenklassifizierung-Label, Techniken zur Inspektion von Inhalten und Kontextanalysen. Sie überwachen die Datenaktivität und kontrollieren sie anhand vordefinierter DLP-Richtlinien. Die Richtlinien definieren, ob die Verwendung bestimmter Inhalte oder Daten in bestimmten Situationen erlaubt sind \cite{Chugh.2023}.
 
 Gartner klassifiziert DLP-Lösungen in drei Kategorien. Eine Enterprise-DLP-Lösung ist ein zentrales System, das darauf ausgelegt ist, komplexe Anforderungen und Strukturen großer Unternehmen zu bewältigen. Sie verfügt über fortschrittliche Technologien zur Identifikation, Klassifizierung und Markierung sensibler Daten und ist in der Lage, verschiedene Datenquellen zu integrieren. So kann diese Lösung den gesamten Lebenszyklus von Daten in einem Unternehmen abdecken. DLP-Richtlinien werden dabei an zentraler Stelle verwaltet und durchgesetzt.
 Dagegen werden integrierte DLP-Lösungen direkt in einen Dienst, wie bspw. ein E-Mail-Gateway, integriert und verfügen deshalb nur über begrenzte Richtlinienfunktionen. Das Management von mehreren integrierten DLP-Systemen ist ein manueller Aufwand, jedoch werden diese Systeme im jeweiligen Dienst speziell an die Anforderungen angepasst und können Inhaltsüberprüfungen besser durchführen.
@@ -20,7 +20,7 @@ DLP-Systeme konzentrieren sich hauptsächlich auf die Identifizierung, die Erken
 Die Literatur-Recherche ergab die folgende Auswahl an Best-Practises, die in DLP-Systemen eingesetzt werden sollten. Um sensible Daten schützen zu können, müssen diese zuerst identifiziert werden. Die Aufgabe besteht darin, ein Dateninventar zu erstellen, die Daten nach ihrer Sensibilität zu klassifizieren und sie entsprechend zu kennzeichnen. Zum Schutz der sensiblen Daten sollten Maßnahmen ergriffen werden, die den Zugriff auf die Daten einschränken. Das bedeutet, dass Richtlinien wie minimale Zugriffsrechte, starke Authentifizierungsmethoden und strenge Zugriffskontrolllisten eingeführt werden sollten. Außerdem sollten Daten sowohl im Ruhezustand als auch während der Übertragung verschlüsselt werden. So wird sichergestellt, dass die Daten selbst dann, wenn sie abgefangen werden, für unbefugte Benutzer unlesbar bleiben. Zusätzlich sollte ein DLP-System die Datenströme innerhalb und nach außen überwachen, um potenzielle Datenschutzverletzungen oder Richtlinienverstöße in Echtzeit erkennen zu können. Dies ermöglicht eine schnelle Reaktion auf potenzielle Probleme und begrenzt den daraus resultierenden Schaden \cite{Hussain.2022}\cite{HerreraMontano.2022}\cite{Shishodia.2022}. % es gibt noch weitere Möglichkeiten?
 
 % Herausforderung Daten Klassifizierung
-Die Funktionen eines DLP-Systems basieren alle darauf, dass sensible Daten erkannt und in irgendeiner Art markiert sind. Derr erste Schritt bei DLP-Systemen ist daher die Identifizierung sensibler Daten. Es gibt verschiedene Strategien und Methoden zur Klassifizierung dieser Daten, die durch den Einsatz von KI weiter verbessert wurden.
+Die Funktionen eines DLP-Systems basieren alle darauf, dass sensible Daten erkannt und in irgendeiner Art markiert sind. Der erste Schritt bei DLP-Systemen ist daher die Identifizierung sensibler Daten. Es gibt verschiedene Strategien und Methoden zur Klassifizierung dieser Daten, die durch den Einsatz von KI weiter verbessert wurden.
 
 \subsection{Erkennung von sensiblen Daten}
 % Warum Datenklassifizierung? 
@@ -29,10 +29,34 @@ Unternehmen setzen immer mehr auf SaaS-Produkte, anstatt sie als Produkt zu kauf
 
 Die Methoden zur Erkennung und Klassifizierung von sensiblen Daten unterscheiden sich je nach Art und Format der Daten, sowie deren Zustand. Außerdem gibt es die Möglichkeit, Daten manuell oder automatisiert zu klassifizieren.
 
-\subsubsection{Daten Art und Format}
+\subsubsection{Eigenschaften von Daten}
 % Art -> welche Kategorien
+Sensible Daten durchdringen fast jeden Aspekt unseres persönlichen und beruflichen Lebens. Das Spektrum dieser sensiblen Informationen reicht von persönlichen Daten über Finanzinformationen und Geschäftsgeheimnisse bis hin zu biometrischen Merkmalen und umfasst eine Vielzahl von Kategorien. Guo, Liu et al. \cite{Guo.2021} kategorisiert beispielsweise Daten in die vier Bereiche:
+\begin{itemize}
+    \item Persönliche Informationen (z.B. Name, Geburtsdatum oder Gesundheitsinformationen)
+    \item Informationen zur Netzwerkidentität (z.B. IP-Adresse, MAC-Adresse oder E-Mail)
+    \item Vertrauliche und Anmeldeinformationen (z.B. Login-Passwort-Kombinationen, API-Token oder digitale Zertifikate)
+    \item Finanzinformationen (z.B. Bankkontodaten, Kreditkarteninformationen oder Verbrauchsdaten)
+\end{itemize}
+Die Kategorisierung und der Detailgrad können je nach Unternehmen variieren.
+
+Neben den Kategorien muss auch der Kontext beachtet werden, in dem eine Information verwendet wird. Denn der Kontext hat direkten Einfluss auf die Sensibilität. Pogiatzis und Samakovitis \cite{Pogiatzis.2020} leiten vier verschiedene Kontextklassen ab, die auf der Bedeutung, der Interaktion, der Priorität und Präferenz basieren, die mit jeder Information verbunden sind.
+
+\begin{itemize}
+    \item Der semantische Kontext wird auf Grundlage der semantischen Bedeutung eines Begriffs gebildet. Die semantische Bedeutung einer Sequenz wirkt sich zum Beispiel auf ihre Sensibilität aus.
+    \item Im Kontext der Akteure wird die Sensibilität von Daten abhängig von den Akteuren, die an der Informationsübermittlung beteiligt sind, betrachtet. Die Sensibilität wird durch die Beziehung zwischen den beteiligten Akteuren bestimmt. Zum Beispiel ist der Austausch von Gesundheitsinformationen zwischen Patient und Arzt nicht sensibel, außerhalb dieser Gruppe von Akteuren jedoch schon.
+    \item Der zeitliche Kontext bezieht sich auf die Priorität der Informationen, die die Bedeutung des Begriffs beeinflussen. Eine Zeichenfolge, die als Passwort eingegeben wird, gilt bspw. als vertraulicher, als wenn sie als Benutzername eingegeben wird.
+    \item Der Selbstkontext wird durch die persönlichen Präferenzen des Nutzers in Bezug auf seine Privatsphäre bestimmt. Zum Beispiel kann eine Person ihre ethnische Herkunft als vertrauliche Information betrachten, eine andere nicht.
+\end{itemize}
+Auch hier können verschiedene kontextuelle Kategorien unterschieden oder definieren werden. Sie sind zudem nicht immer klar trennbar und schließen sich nicht gegenseitig aus. Ein oder mehrere Kontexte können sich gleichzeitig unterschiedlich auf die Sensibilität auswirken. Manche Daten können jedoch auch unabhängig vom Kontext vertraulich sein, wie z.B. Passwörter oder Kreditkartennummern.
+
+% Daten Klassen
+Die Einteilung von Daten in verschiedene Geheimhaltungsklassen ist ein häufig verwendetes Verfahren in militärischen und behördlichen Anwendungen. Militärische Anwendungen verwenden dabei Begriffe wie \glqq eingeschränkt\grqq , \glqq vertraulich\grqq, \glqq geheim\grqq und \glqq streng geheim\grqq \cite{Landwehr.1984}. So ist es möglich, sensible Daten noch präziser in Vertraulichkeitsstufen zu unterteilen.
 
 % Format -> structured, unstructured
+Außerdem wird die Klassifizierung auch von der Struktur der Daten beeinflusst. Mehr als 80\% der Daten im Internet bestehen aus unstrukturierten Daten \cite{Allahyari.2017}. Unstrukturierte Daten beziehen sich in der Regel auf Informationen, die nicht in einer relationalen Datenbank gespeichert sind. Folglich gibt es kein vordefiniertes Datenmodell und die Struktur ist unregelmäßig oder unvollständig. Selbst Datenformate wie CSV, JSON oder XML, die einige organisatorische Eigenschaften haben, verfügen in der Regel nicht über ein klar definiertes Datenmodell. Im Vergleich zu strukturierten Daten ist es schwieriger, unstrukturierte Daten abzurufen, zu analysieren und zu speichern. Während Menschen unstrukturierte Daten leicht verarbeiten können, haben Maschinen oft Schwierigkeiten damit \cite{Guo.2021}.
+
+Die Herausforderung bei der Datenklassifizierung besteht daher darin, die Kategorien, den Kontext, die Vertraulichkeitsstufen und die Struktur der Daten zu berücksichtigen.
 
 \subsubsection{Daten Zustand}
 % Stati von Daten (in Rest, in Motion etc.)

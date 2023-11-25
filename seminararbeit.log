@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  21 NOV 2023 18:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  25 NOV 2023 17:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -289,7 +289,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (./0_abstract.tex) (./1_introduction.tex) (./2_threat_description.tex [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-]) (./3_cloud_data_leakage_prevention.tex [2] [3]) (./4_ausblick.tex) (./seminararbeit.bbl
+]) (./3_cloud_data_leakage_prevention.tex [2] [3]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) (./4_ausblick.tex) (./seminararbeit.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 26--30
 \T1/ptm/m/n/8 https://de.statista.com/statistik/daten/studie/177484/umfrage/einsatz-
  []
@@ -315,6 +323,10 @@ Underfull \hbox (badness 6944) in paragraph at lines 63--67
  []
 
 
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[4]
 Underfull \hbox (badness 3396) in paragraph at lines 110--114
 []\T1/ptm/m/n/8 NIST, ``Fra-me-work for im-pro-ving cri-ti-cal in-fra-
  []
@@ -344,6 +356,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--140
 \T1/ptm/m/n/8 https://de.statista.com/statistik/daten/studie/194117/umfrage/umsatz-
  []
 
+
+Underfull \hbox (badness 1783) in paragraph at lines 151--154
+\T1/ptm/m/n/8 aware de-ep sen-si-ti-vi-ty la-bel-ling on con-ver-sa-tio-nal da-ta,'' \T1/ptm/m/it/8 Ap-p-lied
+ []
+
 )
 
 ** Conference Paper **
@@ -356,25 +373,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] (./seminararbeit.aux)
+
+Overfull \vbox (1.28394pt too high) has occurred while \output is active []
+
+ [5] (./seminararbeit.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4710 strings out of 474927
- 70758 string characters out of 5763541
- 1940785 words of memory out of 5000000
- 26208 multiletter control sequences out of 15000+600000
- 659304 words of font info for 125 fonts, out of 8000000 for 9000
+ 4749 strings out of 474927
+ 71408 string characters out of 5763541
+ 1939785 words of memory out of 5000000
+ 26234 multiletter control sequences out of 15000+600000
+ 661003 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,1859b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on seminararbeit.pdf (4 pages, 77178 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on seminararbeit.pdf (5 pages, 90275 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 46 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

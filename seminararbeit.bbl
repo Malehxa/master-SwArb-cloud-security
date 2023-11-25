@@ -142,4 +142,27 @@ Gartner, ``Umsatz mit software-as-a-service (saas) weltweit von 2010 bis 2022
 B.~Hauer, ``Data and information leakage prevention within the scope of
   information security,'' \emph{IEEE Access}, vol.~3, pp. 2554--2565, 2015.
 
+\bibitem{Guo.2021}
+Y.~Guo, J.~Liu, W.~Tang, and C.~Huang, ``Exsense: Extract sensitive information
+  from unstructured data,'' \emph{Computers {\&} Security}, vol. 102, p.
+  102156, 2021.
+
+\bibitem{Pogiatzis.2020}
+A.~Pogiatzis and G.~Samakovitis, ``Using bilstm networks for context-aware deep
+  sensitivity labelling on conversational data,'' \emph{Applied Sciences},
+  vol.~10, no.~24, p. 8924, 2020.
+
+\bibitem{Landwehr.1984}
+C.~E. Landwehr, C.~L. Heitmeyer, and J.~McLean, ``A security model for military
+  message systems,'' \emph{ACM Transactions on Computer Systems}, vol.~2,
+  no.~3, pp. 198--222, 1984.
+
+\bibitem{Allahyari.2017}
+\BIBentryALTinterwordspacing
+M.~Allahyari, S.~Pouriyeh, M.~Assefi, S.~Safaei, E.~D. Trippe, J.~B. Gutierrez,
+  and K.~Kochut, ``A brief survey of text mining: Classification, clustering
+  and extraction techniques.'' [Online]. Available:
+  \url{\url{https://arxiv.org/pdf/1707.02919.pdf}}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

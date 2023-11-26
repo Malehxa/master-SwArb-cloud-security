@@ -58,25 +58,85 @@ Außerdem wird die Klassifizierung auch von der Struktur der Daten beeinflusst. 
 
 Die Herausforderung bei der Datenklassifizierung besteht daher darin, die Kategorien, den Kontext, die Vertraulichkeitsstufen und die Struktur der Daten zu berücksichtigen.
 
-\subsubsection{Daten Zustand}
-% Stati von Daten (in Rest, in Motion etc.)
+\subsubsection{Datenzustand}
+Im Bereich der Informationssicherheit werden Daten je nach ihrem Zustand unterschiedlich betrachtet. Die verschiedenen Datenzustände helfen dabei, die geeigneten Sicherheitsmaßnahmen zu bestimmen. Im Rahmen der Data Leakage Prevention können sich Daten in einem der drei Zustände befinden: Daten im Ruhezustand, Daten in Bewegung und Daten in Verwendung \cite{Shabtai.2012b}.
+
+Daten im Ruhezustand sind Daten, die auf einem physischen oder digitalen Speichermedium gespeichert sind, wie bspw. einer Datenbank, auf einer Festplatte, im Cloud-Speicher oder einem externen Datenspeicher. Ruhende Daten sind in der Regel inaktiv und werden nicht aktiv gelesen oder gerade übertragen. Sicherheitsmaßnahmen wie Verschlüsselung, Authentifizierung und Zugriffskontrollregeln werden von DLP-Systemen zu Erkennungs- und Überwachungszwecken eingesetzt \cite{Shabtai.2012b}\cite{Shishodia.2022}.
+
+Daten in Bewegung hingegen beziehen sich auf den Zustand von Daten, wenn sie gerade aktiv über Netzwerke oder andere Kommunikationskanäle übertragen werden oder sich im Speicher eines Computers befinden und zum Lesen, Aktualisieren und Verarbeiten bereit sind. Beispiele für Daten in dieser Kategorie sind Daten, die über das Internet, soziale Medien, E-Mail oder FTP/SSH übertragen werden. Daten, die über das Netzwerk übertragen werden, sollten mit Verschlüsselungsmethoden wie HTTPS, SSL oder TLS geschützt werden. DLP-Systeme nutzen Erkennungs- und Überwachungsfunktionen, um den Datenfluss durch das Netzwerk zu identifizieren und zu überprüfen \cite{Shabtai.2012b}\cite{Shishodia.2022}.
+
+Daten in Verwendung sind Daten, die eine Person oder ein System aktiv verarbeiten, aktualisieren, anhängen oder löschen. Dabei befinden sich die Daten auf der Workstation, dem Laptop, dem USB-Stick oder der externen Festplatte des Endnutzers sowie auf Netzlaufwerken oder Druckern. Diese Art von Daten ist besonders anfällig für Sicherheitsbedrohungen, da sie aktiv manipuliert werden. Diese Daten sind über verschiedene Endpunkte hinweg sichtbar, wenn auf sie zugegriffen wird. Um diese Daten zu schützen, wird über das DLP-System eine starke Benutzerauthentifizierung sowie ein Identitäts- und Profilmanagement eingeführt. Außerdem kann je nach DLP-Technologie ein Endpunkt-Agent auf dem Gerät des Endnutzers installiert werden, um die Datennutzung und -übertragung zu überwachen \cite{Shabtai.2012b}\cite{Shishodia.2022}.
+
+Die Unterscheidung zwischen drei Zuständen von Daten - in Ruhe, in Bewegung und in Verwendung - ist entscheidend für die Identifizierung sensibler Informationen und die Klassifizierung von Daten. Mit der Berücksichtigung der Datenzustände können sensible Daten differenziert betrachtet und klassifiziert werden.
+
 
 \subsubsection{Manuelle Datenklassifizierung}
 % Warum manuell
+Viele Studien in der Literatur haben Klassifizierungsmethoden verwendet, um die Datensicherheit in der Cloud zu gewährleisten. Die vorgeschlagenen Lösungen lassen sich in zwei Klassen einteilen: die manuelle Klassifizierung, die vom Nutzer festgelegt wird, und die automatische Klassifizierung, bei der ein Algorithmus zum Einsatz kommt.
+
+Die manuelle Datenklassifizierung ist trotz Fortschritte bei automatisierten Technologien eine gängige Methode. In einigen Fällen, wie bei der Klassifizierung von Informationen wie geistigem Eigentum oder Geschäftsgeheimnissen, bleibt die manuelle Klassifizierung erforderlich. Menschen sind in der Lage, leicht die Kategorien, Kontexte, Strukturen und Zustände der Daten ganzheitlich zu berücksichtigen. Außerdem kann die manuelle Klassifizierung für kleinere Unternehmen kostengünstig sein \cite{Divadari.2023}\cite{Alsuwaie.2021}.
 
 % warum schwierig (aufwändig, fehlerbehaftet, Big Data)
+Die manuelle Klassifizierung von Daten ist jedoch sehr anfällig für menschliche Fehler und Inkonsistenzen. Die Subjektivität der Menschen kann zu inkonsistenten Klassifizierungen führen, was die Genauigkeit und Zuverlässigkeit der Sicherheitsmaßnahmen beeinträchtigen kann. Zudem kann eine unzureichende Genauigkeit zu unvollständigen oder falschen Klassifizierungen führen. Im Normalfall werden Daten bei ihrer Erstellung klassifiziert, doch sie können sich im Laufe der Zeit ändern, wodurch die ursprüngliche Klassifizierung veraltet und nicht mehr richtig sein kann. Die manuelle Einordnung von großen Datenmengen kann sehr zeitaufwändig und arbeitsintensiv sein und ab einer bestimmten Größe nicht mehr manuell verarbeitet werden. Manuelle Prozesse können die Anpassungsfähigkeit und schnelle Reaktion auf sich ändernde Geschäftsanforderungen reduzieren \cite{Venhorst.2019}.
+
+Aufgrund der wachsenden Datenmengen und der zunehmenden Komplexität der Informationssicherheitsanforderungen erscheint die automatisierte Datenklassifizierung häufig als effizientere Lösung, die eine genauere und konsistentere Identifizierung sensibler Daten ermöglicht.
 
 \subsubsection{Automatische Datenklassifizierung}
 % warum automatisiert
+Der Prozess, bei dem maschinelle Algorithmen und Technologien verwendet werden, um Daten automatisch zu identifizieren, zu kategorisieren und entsprechend ihres Sensitivität zu klassifizieren, wird als automatische Datenklassifizierung bezeichnet. Diese Methode verwendet maschinelles Lernen, Mustererkennung oder künstliche Intelligenz, um Daten zu analysieren und automatisch geeignete Klassifizierungen zuzuweisen.
+Die aktuellen Techniken in der Data Leakage Prevention können allgemein in zwei Kategorien eingeteilt werden: inhaltsbasierte Analyse und kontextbasierte Analyse. Methoden, die auf dem Inhalt basieren, untersuchen den Inhalt von Daten anhand von Merkmalen sensibler Informationen wie regulären Ausdrücken und Datenfingerabdrücken. Inhaltsbasierte Methoden verwenden vorhersehbare Muster wie z.B. IP-Adressen oder E-Mail-Adressen, um sensible Daten zu erkennen. Kontextbasierte Techniken identifizieren vertrauliche Daten anhand von Merkmalen im Zusammenhanf mit den überwachten Daten. Der kontextbasierte Ansatz ist damit effektiver für vertrauliche Daten ohne vorhersehbare Muster \cite{Guo.2021}\cite{Gugelmann.2015}\cite{Kuzina.2023}. Um sensible Informationen umfassender und genauer zu extrahieren, sollten daher verschiedene Methoden angewendet werden. In der Tabelle \ref{t:methoden} sind die verschiedenen Methoden nach ihrer Kategorie aufgelistet, die in der Literatur verwendet wurden.
 
-% wie automatisiert
-
-% content vs. context statt rule/model/context
+%Tabelle mit content-based vs. context-based
+\begin{table}[htbp]
+    \normalsize
+    \caption{Methoden der automatischen Datenklassifizierung. Quelle: eigene Darstellung.}
+    \label{t:methoden}
+    \begin{center}
+        \begin{tabulary}{15cm}{|L|L|}
+            \hline
+            \textbf{Kategorie}                           & \textbf{Methode} \bigstrut  \\
+            \hline
+            \hline
+            \multirow{9}{4em}{basierend auf dem Inhalt}  & rule-based \bigstrut[t]     \\
+            & ML Classifier               \\
+            & Vector based                \\
+            & Frequency method            \\
+            & Fingerprint                 \\
+            & Neuronal Network            \\
+            & Statistic Analysis          \\
+            & Text Clustering             \\
+            & ML K-NN                     \\
+            \hline
+            \multirow{5}{4em}{basierend auf dem Kontext} & Deep Learning  \bigstrut[t] \\
+            & Graph-based                 \\
+            & ML semantic analysis        \\
+            & BiLSTM                      \\
+            & Cassed                      \\
+            \hline
+        \end{tabulary}
+    \end{center}
+\end{table}
 
 \paragraph{content-based}
+- rule-based/regular-matching/Dictionary
+- ML classifier
+- Vector based
+- Frequency method
+- fingerprint
+- neuronal network
+- statistical analysis
+- text clustering
+- ML K-NN
 
 \paragraph{context-based}
+- deep learning
+- graph based -> CBDLPA
+- ML semantic analysis
+- BERT-BiLSTM-Attention Model (Guo)
+- BERT: Cassed
 
+
+% Data preprocessing
 
 
 \subsection{Anwendung in der Cloud Security}

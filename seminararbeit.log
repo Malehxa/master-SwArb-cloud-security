@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  25 NOV 2023 17:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  26 NOV 2023 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -232,10 +232,44 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (c:/texlive/2023/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen175
+) (c:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip56
+\multirow@cntb=\count282
+\multirow@dima=\skip57
+\bigstrutjot=\dimen176
+) (c:/texlive/2023/texmf-dist/tex/latex/multirow/bigstrut.sty
+Package: bigstrut 2021/03/15 v2.8 Provide larger struts in tabulars
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen177
+\ar@mcellbox=\box55
+\extrarowheight=\dimen178
+\NC@list=\toks24
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box56
+)
+\TX@col@width=\dimen179
+\TX@old@table=\dimen180
+\TX@old@col=\dimen181
+\TX@target=\dimen182
+\TX@delta=\dimen183
+\TX@cols=\count283
+\TX@ftn=\toks25
+) (c:/texlive/2023/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+\TY@count=\count284
+\TY@linewidth=\dimen184
+\tymin=\dimen185
+\tymax=\dimen186
+\TY@tablewidth=\dimen187
 ) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks24
-\inpenc@posthook=\toks25
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
 ) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
@@ -243,44 +277,44 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )) (c:/texlive/2023/texmf-dist/tex/generic/german/german.sty v2.5e 1998-07-08
 Package: german 1998/07/08 v2.5e Support for writing german texts (br)
-\grmnU@D=\dimen176
+\grmnU@D=\dimen188
 german -- \language number for Austrian undefined, default 35 used.
 ) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count282
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count285
+\l__pdf_internal_box=\box57
 ) (./seminararbeit.aux)
 \openout1 = `seminararbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 -- Lines per column: 56 (exact).
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen177
-\scratchbox=\box56
-\nofMPsegments=\count284
-\nofMParguments=\count285
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen178
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count286
+\scratchdimen=\dimen189
+\scratchbox=\box58
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen190
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks29
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -297,12 +331,31 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) (./4_ausblick.tex) (./seminararbeit.bbl
+) [4]
+Underfull \hbox (badness 10000) in paragraph at lines 121--130
+ \T1/ptm/m/it/10 a) content-based: [][] \T1/ptm/m/n/10 - rule-based/regular-
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 121--130
+\T1/ptm/m/n/10 matching/Dictionary - ML clas-si-fier - Vec-tor ba-sed -
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 121--130
+\T1/ptm/m/n/10 Fre-quen-cy me-thod - fin-ger-print - neu-ro-nal net-work -
+ []
+
+) (./4_ausblick.tex) (./seminararbeit.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 26--30
 \T1/ptm/m/n/8 https://de.statista.com/statistik/daten/studie/177484/umfrage/einsatz-
  []
 
 
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[5]
 Underfull \hbox (badness 3746) in paragraph at lines 50--53
 []\T1/ptm/m/n/8 CA Tech-no-lo-gies, ``2018 in-si-der thre-at re-port,''
  []
@@ -323,10 +376,6 @@ Underfull \hbox (badness 6944) in paragraph at lines 63--67
  []
 
 
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
-[4]
 Underfull \hbox (badness 3396) in paragraph at lines 110--114
 []\T1/ptm/m/n/8 NIST, ``Fra-me-work for im-pro-ving cri-ti-cal in-fra-
  []
@@ -361,6 +410,16 @@ Underfull \hbox (badness 1783) in paragraph at lines 151--154
 \T1/ptm/m/n/8 aware de-ep sen-si-ti-vi-ty la-bel-ling on con-ver-sa-tio-nal da-ta,'' \T1/ptm/m/it/8 Ap-p-lied
  []
 
+
+Underfull \hbox (badness 3930) in paragraph at lines 190--194
+[]\T1/ptm/m/n/8 J. Ven-horst, ``Warum ei-ne ma-nu-el-le da-ten-klas-
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 190--194
+\T1/ptm/m/n/8 si-fi-zie-rung nicht sinn-voll ist,'' 2019. [On-li-ne].
+ []
+
 )
 
 ** Conference Paper **
@@ -374,27 +433,27 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 
-Overfull \vbox (1.28394pt too high) has occurred while \output is active []
+Overfull \vbox (1.5979pt too high) has occurred while \output is active []
 
- [5] (./seminararbeit.aux)
+ [6] (./seminararbeit.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4749 strings out of 474927
- 71408 string characters out of 5763541
- 1939785 words of memory out of 5000000
- 26234 multiletter control sequences out of 15000+600000
- 661003 words of font info for 133 fonts, out of 8000000 for 9000
+ 5037 strings out of 474927
+ 76238 string characters out of 5763541
+ 1947785 words of memory out of 5000000
+ 26503 multiletter control sequences out of 15000+600000
+ 667326 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,1859b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,1859b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on seminararbeit.pdf (5 pages, 90275 bytes).
+Output written on seminararbeit.pdf (6 pages, 97598 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

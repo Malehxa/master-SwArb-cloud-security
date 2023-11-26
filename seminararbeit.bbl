@@ -165,4 +165,36 @@ M.~Allahyari, S.~Pouriyeh, M.~Assefi, S.~Safaei, E.~D. Trippe, J.~B. Gutierrez,
   \url{\url{https://arxiv.org/pdf/1707.02919.pdf}}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Shabtai.2012b}
+A.~Shabtai, Y.~Elovici, and L.~Rokach, ``A taxonomy of data leakage prevention
+  solutions,'' in \emph{A survey of data leakage detection and prevention
+  solutions}, ser. SpringerBriefs in Computer Science, A.~Shabtai, Y.~Elovici,
+  and L.~Rokach, Eds.\hskip 1em plus 0.5em minus 0.4em\relax New York:
+  Springer, 2012, pp. 11--15.
+
+\bibitem{Divadari.2023}
+S.~Divadari, J.~{Surya Prasad}, and P.~Honnavalli, ``Managing data protection
+  and privacy on cloud,'' in \emph{Proceedings of the 3rd international
+  conference on recent trends in machine learning, IoT, smart cities and
+  applications}, ser. Lecture Notes in Networks and Systems, J.~M. Zurada and
+  V.~K. Gunjan, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Singapore:
+  Springer, 2023, vol. 540, pp. 383--396.
+
+\bibitem{Alsuwaie.2021}
+M.~A. Alsuwaie, B.~Habibnia, and P.~Gladyshev, ``Data leakage prevention
+  adoption model {\&} dlp maturity level assessment,'' in \emph{2021
+  International Symposium on Computer}, 2021, pp. 396--405.
+
+\bibitem{Venhorst.2019}
+\BIBentryALTinterwordspacing
+J.~Venhorst, ``Warum eine manuelle datenklassifizierung nicht sinnvoll ist,''
+  2019. [Online]. Available:
+  \url{\url{https://www.computerweekly.com/de/meinung/Warum-eine-manuelle-Datenklassifizierung-nicht-sinnvoll-ist}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Gugelmann.2015}
+D.~Gugelmann, P.~Studerus, V.~Lenders, and B.~Ager, ``Can content-based data
+  loss prevention solutions prevent data leakage in web traffic?'' \emph{IEEE
+  Security {\&} Privacy}, vol.~13, no.~4, pp. 52--59, 2015.
+
 \end{thebibliography}

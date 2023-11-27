@@ -197,4 +197,28 @@ D.~Gugelmann, P.~Studerus, V.~Lenders, and B.~Ager, ``Can content-based data
   loss prevention solutions prevent data leakage in web traffic?'' \emph{IEEE
   Security {\&} Privacy}, vol.~13, no.~4, pp. 52--59, 2015.
 
+\bibitem{Ong.2017}
+Y.~J. Ong, M.~Qiao, R.~Routray, and R.~Raphael, ``Context-aware data loss
+  prevention for cloud storage services,'' in \emph{2017 IEEE 10th
+  International Conference on Cloud Computing - CLOUD 2017}, G.~C. Fox,
+  Ed.\hskip 1em plus 0.5em minus 0.4em\relax Piscataway, NJ: IEEE, 2017, pp.
+  399--406.
+
+\bibitem{Shu.2015}
+X.~Shu, D.~Yao, and E.~Bertino, ``Privacy-preserving detection of sensitive
+  data exposure,'' \emph{IEEE Transactions on Information Forensics and
+  Security}, vol.~10, no.~5, pp. 1092--1103, 2015.
+
+\bibitem{Suyal.2014}
+H.~Suyal, A.~Panwar, and A.~{Singh Negi}, ``Text clustering algorithms: A
+  review,'' \emph{International Journal of Computer Applications}, vol.~96,
+  no.~24, pp. 36--40, 2014.
+
+\bibitem{Bonthu.2023}
+\BIBentryALTinterwordspacing
+H.~Bonthu, ``Single-link hierarchical clustering clearly explained!'' 2023.
+  [Online]. Available:
+  \url{\url{https://www.analyticsvidhya.com/blog/2021/06/single-link-hierarchical-clustering-clearly-explained/}}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

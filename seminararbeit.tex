@@ -13,6 +13,8 @@
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage{tabulary}
+\usepackage{caption}
+\usepackage{subcaption}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc} % Trennen von Wörtern mit Umlauten
@@ -22,6 +24,8 @@
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\def\figdir{figures}
 
 \begin{document}
 
@@ -56,8 +60,11 @@
 \section{Cloud Data Leakage Prevention System}
 \input{3_cloud_data_leakage_prevention.tex}
 
+\section{Automatische Datenklassifizierung}
+\input{4_Klassifizierung.tex}
+
 \section{Ausblick}
-\input{4_ausblick.tex}
+\input{5_ausblick.tex}
 
 % references ieeetr
 \balance

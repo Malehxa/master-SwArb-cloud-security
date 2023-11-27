@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  26 NOV 2023 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  27 NOV 2023 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,6 +266,35 @@ Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 \tymin=\dimen185
 \tymax=\dimen186
 \TY@tablewidth=\dimen187
+) (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen188
+\captionmargin=\dimen189
+\caption@leftmargin=\dimen190
+\caption@rightmargin=\dimen191
+\caption@width=\dimen192
+\caption@indent=\dimen193
+\caption@parindent=\dimen194
+\caption@hangindent=\dimen195
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\normalfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi \fi  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count285
+\c@continuedfloat=\count286
+) (c:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count287
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count288
 ) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks26
@@ -277,50 +306,53 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )) (c:/texlive/2023/texmf-dist/tex/generic/german/german.sty v2.5e 1998-07-08
 Package: german 1998/07/08 v2.5e Support for writing german texts (br)
-\grmnU@D=\dimen188
+\grmnU@D=\dimen196
 german -- \language number for Austrian undefined, default 35 used.
 ) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
+\l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box57
 ) (./seminararbeit.aux)
 \openout1 = `seminararbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 -- Lines per column: 56 (exact).
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen189
+\scratchcounter=\count290
+\scratchdimen=\dimen197
 \scratchbox=\box58
-\nofMPsegments=\count287
-\nofMParguments=\count288
+\nofMPsegments=\count291
+\nofMParguments=\count292
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen190
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
+\MPscratchCnt=\count293
+\MPscratchDim=\dimen198
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
 \everyMPtoPDFconversion=\toks29
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./0_abstract.tex) (./1_introduction.tex) (./2_threat_description.tex [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (./0_abstract.tex) (./1_introduction.tex) (./2_threat_description.tex [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]) (./3_cloud_data_leakage_prevention.tex [2] [3]
@@ -331,31 +363,28 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4]
-Underfull \hbox (badness 10000) in paragraph at lines 121--130
- \T1/ptm/m/it/10 a) content-based: [][] \T1/ptm/m/n/10 - rule-based/regular-
+) [4]) (./4_Klassifizierung.tex [5]
+<figures/clustering_daten.png, id=23, 256.96pt x 250.9375pt>
+File: figures/clustering_daten.png Graphic file (type png)
+<use figures/clustering_daten.png>
+Package pdftex.def Info: figures/clustering_daten.png  used on input line 74.
+(pdftex.def)             Requested size: 118.4403pt x 115.66621pt.
+<figures/clustering_dendrogramm.png, id=25, 301.125pt x 239.89626pt>
+File: figures/clustering_dendrogramm.png Graphic file (type png)
+<use figures/clustering_dendrogramm.png>
+Package pdftex.def Info: figures/clustering_dendrogramm.png  used on input line 80.
+(pdftex.def)             Requested size: 118.4403pt x 94.35715pt.
+
+Underfull \hbox (badness 1389) in paragraph at lines 81--81
+[]\T1/ptm/m/n/9 (b) |Den-dro-gramm. Quel-le: In
  []
 
-
-Underfull \hbox (badness 3803) in paragraph at lines 121--130
-\T1/ptm/m/n/10 matching/Dictionary - ML clas-si-fier - Vec-tor ba-sed -
- []
-
-
-Underfull \hbox (badness 3884) in paragraph at lines 121--130
-\T1/ptm/m/n/10 Fre-quen-cy me-thod - fin-ger-print - neu-ro-nal net-work -
- []
-
-) (./4_ausblick.tex) (./seminararbeit.bbl
+[6 <./figures/clustering_daten.png> <./figures/clustering_dendrogramm.png>]) (./5_ausblick.tex) (./seminararbeit.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 26--30
 \T1/ptm/m/n/8 https://de.statista.com/statistik/daten/studie/177484/umfrage/einsatz-
  []
 
 
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
-[5]
 Underfull \hbox (badness 3746) in paragraph at lines 50--53
 []\T1/ptm/m/n/8 CA Tech-no-lo-gies, ``2018 in-si-der thre-at re-port,''
  []
@@ -420,6 +449,21 @@ Underfull \hbox (badness 4416) in paragraph at lines 190--194
 \T1/ptm/m/n/8 si-fi-zie-rung nicht sinn-voll ist,'' 2019. [On-li-ne].
  []
 
+
+Underfull \hbox (badness 7415) in paragraph at lines 219--223
+[]\T1/ptm/m/n/8 H. Bonthu, ``Single-link hier-ar-chi-cal clu-ste-ring
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--223
+\T1/ptm/m/n/8 clear-ly ex-plai-ned!'' 2023. [On-li-ne]. Availa-ble:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--223
+\T1/ptm/m/n/8 https://www.analyticsvidhya.com/blog/2021/06/single-link-hierarchical-
+ []
+
 )
 
 ** Conference Paper **
@@ -432,28 +476,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-
-Overfull \vbox (1.5979pt too high) has occurred while \output is active []
-
- [6] (./seminararbeit.aux)
+[7] (./seminararbeit.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5037 strings out of 474927
- 76238 string characters out of 5763541
- 1947785 words of memory out of 5000000
- 26503 multiletter control sequences out of 15000+600000
- 667326 words of font info for 136 fonts, out of 8000000 for 9000
+ 6536 strings out of 474927
+ 105446 string characters out of 5763541
+ 1956785 words of memory out of 5000000
+ 27991 multiletter control sequences out of 15000+600000
+ 663188 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1859b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,1859b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on seminararbeit.pdf (6 pages, 97598 bytes).
+Output written on seminararbeit.pdf (7 pages, 135539 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

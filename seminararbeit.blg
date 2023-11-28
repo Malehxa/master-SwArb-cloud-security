@@ -14,45 +14,45 @@ Database file #1: ref.bib
 Warning--empty journal in NIST.2014
 
 Done.
-You've used 32 entries,
+You've used 38 entries,
             4024 wiz_defined-function locations,
-            1024 strings with 14197 characters,
-and the built_in function-call counts, 22442 in all, are:
-= -- 1840
-> -- 507
-< -- 158
-+ -- 260
-- -- 91
-* -- 1064
-:= -- 3528
-add.period$ -- 72
-call.type$ -- 32
-change.case$ -- 48
-chr.to.int$ -- 360
-cite$ -- 33
-duplicate$ -- 1640
-empty$ -- 1851
-format.name$ -- 114
-if$ -- 5091
+            1055 strings with 15007 characters,
+and the built_in function-call counts, 26913 in all, are:
+= -- 2198
+> -- 596
+< -- 195
++ -- 305
+- -- 105
+* -- 1270
+:= -- 4214
+add.period$ -- 87
+call.type$ -- 38
+change.case$ -- 59
+chr.to.int$ -- 450
+cite$ -- 39
+duplicate$ -- 1960
+empty$ -- 2262
+format.name$ -- 131
+if$ -- 6128
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 299
-newline$ -- 143
-num.names$ -- 48
-pop$ -- 741
+int.to.str$ -- 38
+missing$ -- 348
+newline$ -- 161
+num.names$ -- 60
+pop$ -- 862
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1735
+skip$ -- 2081
 stack$ -- 0
-substring$ -- 902
-swap$ -- 1277
-text.length$ -- 38
+substring$ -- 1117
+swap$ -- 1528
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 32
+type$ -- 38
 warning$ -- 1
-while$ -- 111
-width$ -- 34
-write$ -- 352
+while$ -- 140
+width$ -- 40
+write$ -- 409
 (There was 1 warning)

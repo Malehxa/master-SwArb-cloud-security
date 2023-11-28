@@ -209,6 +209,37 @@ X.~Shu, D.~Yao, and E.~Bertino, ``Privacy-preserving detection of sensitive
   data exposure,'' \emph{IEEE Transactions on Information Forensics and
   Security}, vol.~10, no.~5, pp. 1092--1103, 2015.
 
+\bibitem{Kamath.2019}
+U.~Kamath, J.~Liu, and J.~Whitaker, \emph{Deep learning for NLP and speech
+  recognition}.\hskip 1em plus 0.5em minus 0.4em\relax Cham: Springer, 2019.
+
+\bibitem{Zardari.2014}
+M.~A. Zardari, L.~T. Jung, and N.~Zakaria, ``K-nn classifier for data
+  confidentiality in cloud computing,'' in \emph{Universiti Teknologi PETRONAS,
+  IEEE Computer Society et al.}, 2014, pp. 1--6.
+
+\bibitem{Frochte.2018b}
+J.~Frochte, ``Maschinelles lernen -- {\"u}berblick und abgrenzung,'' in
+  \emph{Maschinelles Lernen}, J.~Frochte, Ed.\hskip 1em plus 0.5em minus
+  0.4em\relax M{\"u}nchen: {Carl Hanser Verlag GmbH {\&} Co. KG}, 2018, pp.
+  13--31.
+
+\bibitem{Frochte.2018c}
+------, ``Entscheidungsb{\"a}ume,'' in \emph{Maschinelles Lernen}, J.~Frochte,
+  Ed.\hskip 1em plus 0.5em minus 0.4em\relax M{\"u}nchen: {Carl Hanser Verlag
+  GmbH {\&} Co. KG}, 2018, pp. 117--160.
+
+\bibitem{Kaur.2016}
+K.~Kaur and V.~Zandu, ``A secure data classification model in cloud computing
+  using machine learning approach,'' \emph{International Journal of Grid and
+  Distributed Computing}, vol.~9, no.~8, pp. 13--22, 2016.
+
+\bibitem{Frochte.2018d}
+J.~Frochte, ``Statistische grundlagen und bayes-klassifikator,'' in
+  \emph{Maschinelles Lernen}, J.~Frochte, Ed.\hskip 1em plus 0.5em minus
+  0.4em\relax M{\"u}nchen: {Carl Hanser Verlag GmbH {\&} Co. KG}, 2018, pp.
+  68--87.
+
 \bibitem{Suyal.2014}
 H.~Suyal, A.~Panwar, and A.~{Singh Negi}, ``Text clustering algorithms: A
   review,'' \emph{International Journal of Computer Applications}, vol.~96,

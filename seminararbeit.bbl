@@ -252,4 +252,51 @@ H.~Bonthu, ``Single-link hierarchical clustering clearly explained!'' 2023.
   \url{\url{https://www.analyticsvidhya.com/blog/2021/06/single-link-hierarchical-clustering-clearly-explained/}}
 \BIBentrySTDinterwordspacing
 
+\bibitem{GoogleCloud.30.11.2023}
+\BIBentryALTinterwordspacing
+{Google Cloud}, ``Cloud data loss prevention | google cloud,'' 30.11.2023.
+  [Online]. Available: \url{\url{https://cloud.google.com/dlp?hl=de}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{DigitalGuardian.30.11.2023}
+\BIBentryALTinterwordspacing
+{Digital Guardian}, ``Enterprise ip {\&} dlp software,'' 30.11.2023. [Online].
+  Available: \url{\url{https://www.digitalguardian.com/}}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Naik.2019}
+R.~Naik and M.~N. Gaonkar, ``Data leakage detection in cloud using watermarking
+  technique,'' in \emph{2019 International Conference on Computer Communication
+  and Informatics (ICCCI)}.\hskip 1em plus 0.5em minus 0.4em\relax Piscataway,
+  NJ: IEEE, 2019, pp. 1--6.
+
+\bibitem{Costante.2016}
+E.~Costante, D.~Fauri, S.~Etalle, J.~{den Hartog}, and N.~Zannone, ``A hybrid
+  framework for data loss prevention and detection,'' in \emph{2016 IEEE
+  Security and Privacy Workshops (SPW)}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Piscataway, NJ: IEEE, 2016, pp. 324--333.
+
+\bibitem{Arki.2023}
+O.~Arki, A.~Zitouni, and M.~Djoudi, ``A security method for cloud storage using
+  data classification,'' \emph{International Journal of Grid and High
+  Performance Computing}, vol.~15, no.~1, pp. 1--17, 2023.
+
+\bibitem{Zhang.2011}
+N.~Zhang, J.~Jing, and P.~Liu, ``Cloud shredder: Removing the laptop on-road
+  data disclosure threat in the cloud computing era,'' in \emph{2011 IEEE 10th
+  International Conference on Trust, Security and Privacy in Computing and
+  Communications}, I.~Staff, Ed.\hskip 1em plus 0.5em minus 0.4em\relax Place
+  of publication not identified: IEEE, 2011, pp. 1592--1599.
+
+\bibitem{Guri.2019}
+M.~Guri, R.~Puzis, K.-K.~R. Choo, S.~Rubinshtein, G.~Kedma, and Y.~Elovici,
+  ``Using malware for the greater good: Mitigating data leakage,''
+  \emph{Journal of Network and Computer Applications}, vol. 145, p. 102405,
+  2019.
+
+\bibitem{Papagiannis.2016}
+I.~Papagiannis, P.~Watcharapichat, D.~Muthukumaran, and P.~Pietzuch,
+  ``Browserflow,'' in \emph{ACM/IFIP/USENIX Middleware 2016}, G.~P. Picco,
+  Ed.\hskip 1em plus 0.5em minus 0.4em\relax New York: ACM, 2016, pp. 1--13.
+
 \end{thebibliography}

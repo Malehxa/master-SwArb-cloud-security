@@ -16,26 +16,26 @@ Die aktuellen Techniken in der Data Leakage Prevention können allgemein in zwei
 
 %Tabelle mit content-based vs. context-based
 \begin{table}[htbp]
-  \normalsize
-  \caption{Methoden der automatischen Datenklassifizierung. Quelle: eigene Darstellung.}
-  \label{t:methoden}
-  \begin{center}
-    \begin{tabulary}{15cm}{|L|L|}
-      \hline
-      \textbf{Kategorie} & \textbf{Methode} \bigstrut  \\
-      \hline
-      \hline
-      \multirow{5}{*}{inhaltsbasiert} & regelbasierte Methoden \bigstrut[t]     \\
-      & Data Fingerprinting               \\
-      & kNN              \\
-      & Boosting \\
-      & Clusteranalyse \\
-      \hline
-      \multirow{2}{*}{inhalts- und kontextbasiert} & CASSED  \bigstrut[t] \\
-      & BERT-BiLSTM     \\
-      \hline
-    \end{tabulary}
-  \end{center}
+    \normalsize
+    \caption{Methoden der automatischen Datenklassifizierung. Quelle: eigene Darstellung.}
+    \label{t:methoden}
+    \begin{center}
+        \begin{tabulary}{15cm}{|L|L|}
+            \hline
+            \textbf{Kategorie} & \textbf{Methode} \bigstrut  \\
+            \hline
+            \hline
+            \multirow{5}{*}{inhaltsbasiert} & regelbasierte Methoden \bigstrut[t]     \\
+            & Data Fingerprinting               \\
+            & kNN              \\
+            & Boosting \\
+            & Clusteranalyse \\
+            \hline
+            \multirow{2}{*}{inhalts- und kontextbasiert} & CASSED  \bigstrut[t] \\
+            & BERT-BiLSTM     \\
+            \hline
+        \end{tabulary}
+    \end{center}
 \end{table}
 
 % ###########################################
@@ -52,7 +52,7 @@ Jedoch können regelbasierte Methoden bei der Verarbeitung komplexer und sich ve
 Trotzdem bieten regelbasierte Ansätze eine grundlegende und robuste Methode zur Sicherstellung einer konsistenten Datenklassifizierung.
 
 % ###########################################
-\paragraph{Data Fingerprinting}
+\paragraph{Data Fingerprinting} \label{fingerprint}
 Data Fingerprinting oder auch Document Fingerprinting erstellt eindeutige Fingerabdrücke für bestimmte Datenfragmente oder ganze Dateien. Diese Fingerabdrücke sind eindeutige Identifikatoren für die entsprechenden Daten und werden genutzt, um sensible Daten zu identifizieren und automatisch zu klassifizieren. Eindeutige Fingerabdrücke für Wörter, Sätze oder ganze Dateien werden mithilfe von Wortmustern aus regulären Ausdrücken oder vordefinierten Wörterbüchern erstellt und als Vorlage für sensible Daten verwendet. Diese Fingerabdrücke können dann verwendet werden, um Fingerabdrücke von nicht-klassifizierten Daten zu vergleichen und zu klassifizieren.
 Häufig werden Hash-Funktionen wie MD5 oder SHA1 verwendet, um Datenfingerprints zu erstellen, die eine algorithmisch generierte Zeichenfolge fester Größe für die Daten darstellen. Die Hashes von zwei Dateien unterscheiden sich jedoch, sobald nur ein Zeichen verändert wurde \cite{Alneyadi.2016}. Ein weiterer Ansatz ist deshalb das \glqq Fuzzy-Hashing\grqq. Hierbei werden die Daten in Blöcken verarbeitet, wodurch die Hash-Ausgabe bei ähnlichen Daten größtenteils übereinstimmende Blöcke enthält. So kann die prozentuale Ähnlichkeit mithilfe einer mathematischen Vergleichsfunktion bestimmt werden \cite{Shu.2015}.
 
@@ -85,8 +85,8 @@ Ensemble Learning ist ein Begriff aus dem maschinellen Lernen und beschreibt das
 Kaur, Zandu \cite{Kaur.2016} schlagen für die Klassifizierung von sensiblen Daten eine neue Boosting-Architektur vor. Als Klassifikator wird eine Kombination aus dem Naive Bayes Klassifikator und AdaBoost verwendet. Der Naive Bayes Algorithmus ist eine Klassifizierungsmethode, die auf dem Bayes Theorem beruht. Die Grundlage ist die Annahme, dass das Auftreten eines Merkmals unabhängig mit dem Auftreten eines anderen Merkmals innerhalb der Klasse ist. Das Bayes Theorem ist eine Formel zur Berechnung der bedingten Wahrscheinlichkeit ${P(A|B)}$. Diese bedingte Wahrscheinlichkeit lässt sich mit der Formel \ref{e:naive-bayes} berechnen. Zur Klassifizierung eines Merkmals wird mit der Formel für jede Klasse berechnet, mit welcher Wahrscheinlichkeit das Merkmal zu dieser Klasse gehört. Gewählt wird schließlich die Zuordnung mit der höchsten Wahrscheinlichkeit \cite{Frochte.2018d}.
 
 \begin{equation}
-  \label{e:naive-bayes}
-  P(A|B) = \frac{P(B|A) * P(A)}{P(B)}
+    \label{e:naive-bayes}
+    P(A|B) = \frac{P(B|A) * P(A)}{P(B)}
 \end{equation}
 
 Im Ansatz von \cite{Kaur.2016} wird dieser Klassifikator mit AdaBoost, Abkürzung für adaptive Boosting, optimiert. AdaBoost kombiniert mehrere schwache Klassifikatoren zu einem starken Klassifikator. Dabei werden iterativ mehrere Klassifikatoren hinzugefügt und der Datensatz stetig neu gewichtet, damit sich der nächste Klassifikator auf die Fehler des vorherigen Klassifikators konzentriert \cite{Frochte.2018c}.
@@ -105,18 +105,18 @@ Zwei gängige Clustering-Methoden sind das hierarchische Clustering und das part
 % TODO: Distanz Algorithmus im Detail darstellen?
 
 \begin{figure}[htbp]
-  \centering
-  \begin{subfigure}[b]{0.47\linewidth}
-    \includegraphics[width=\linewidth]{\figdir/clustering_daten}
-    \caption{Datensatz. Quelle: In Anlehnung an \cite{Bonthu.2023}.}
-    \label{f:clustering_daten}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[b]{0.47\linewidth}
-    \includegraphics[width=\linewidth]{\figdir/clustering_dendrogramm}
-    \caption{Dendrogramm. Quelle: In Anlehnung an \cite{Bonthu.2023}.}
-    \label{f:clustering_baum}
-  \end{subfigure}
+    \centering
+    \begin{subfigure}[b]{0.47\linewidth}
+        \includegraphics[width=\linewidth]{\figdir/clustering_daten}
+        \caption{Datensatz. Quelle: In Anlehnung an \cite{Bonthu.2023}.}
+        \label{f:clustering_daten}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.47\linewidth}
+        \includegraphics[width=\linewidth]{\figdir/clustering_dendrogramm}
+        \caption{Dendrogramm. Quelle: In Anlehnung an \cite{Bonthu.2023}.}
+        \label{f:clustering_baum}
+    \end{subfigure}
 \end{figure}
 
 Aufgrund seiner Einfachheit und Flexibilität wird hierarchisches Clustering häufig verwendet und bietet den Vorteil, dass jede Art von Ähnlichkeitsmessung durchgeführt werden kann. Außerdem bietet dieses Verfahren eine detaillierte Darstellung der Clusterstruktur, wodurch unterschiedliche Granularitätsstufen von Clustern untersucht werden können.
@@ -137,10 +137,10 @@ BERT steht für 'Bidirectional Encoder Representations from Transformers' und is
 Im ersten Schritt erfolgt die Umwandlung der Spalten in Input-Vektoren. Dabei werden die Spaltenüberschrift zusammen mit mehreren Zellwerten derselben Spalte als Tokens dargestellt und durch Trennzeichen getrennt. In Abbildung \ref{f:input} ist eine Umwandlung einer Spalte in einen Input-Vektor dargestellt. Dabei wird die Spaltenüberschrift mit einem Punkt zur ersten Zelle getrennt, während die Zellen zueinander mit einem Komma getrennt werden. So wird dem Modell zusätzliche Informationen geliefert, dass diese Werte unterschiedlich behandelt werden sollten. BERT kann nur eine Anzahl von maximal 512 Tokens als Input-Vektor verarbeiten. Deshalb müssen größere Input-Vektoren noch aufgeteilt werden.
 
 \begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\linewidth]{\figdir/cassed_input.png}
-  \caption{Beispiel einer Umwandlung einer Spalte in einen Input-Vektor. Quelle: \cite{Kuzina.2023}.}
-  \label{f:input}
+    \centering
+    \includegraphics[width=0.8\linewidth]{\figdir/cassed_input.png}
+    \caption{Beispiel einer Umwandlung einer Spalte in einen Input-Vektor. Quelle: \cite{Kuzina.2023}.}
+    \label{f:input}
 \end{figure}
 
 Zur Klassifizierung erzeugt der Decoder von BERT für jede mögliche Klasse eine nicht normalisierte Vorhersage, die anschließend über alle Spaltenteile gemittelt wird, in die die Spalte aufgeteilt wurde. Auf diese Vorhersage-Werte wird eine Sigmoidfunktion angewendet, um normalisierte Wahrscheinlichkeiten für jede Klasse zu erzeugen.
@@ -148,10 +148,10 @@ Zur Klassifizierung erzeugt der Decoder von BERT für jede mögliche Klasse eine
 Zusätzlich zum BERT-Modell enthält der CASSED-Ansatz eine regelbasierte Schicht, die strukturierte Formate wie E-Mails oder Sozialversicherungsnummern mittels regulären Audrücken klassifiziert. Außerdem wird ein Wörterbuch für bekannte sensible Daten oder Merkmale von Geschäftsgeheimnissen eingesetzt. Auch diese Schicht ermittelt für jede Klasse eine mögliche Wahrscheinlichkeit. Diese und die Wahrscheinlichkeiten der BERT-Schicht werden kombiniert zu einer Gesamt-Wahrscheinlichkeit pro Klasse. Anschließend werden die Klassen zugeteilt, deren Wahrscheinlichkeit einen bestimmten Schwellwert überschreiten. So ist es auch möglich, dass eine Spalte mehrere Klassen erhält. Abbildung \ref{f:cassed} stellt die Architektur des CASSED-Ansatzes dar.
 
 \begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\linewidth]{\figdir/cassed_model.png}
-  \caption{Überblick über die CASSED Methode. Quelle: \cite{Kuzina.2023}.}
-  \label{f:cassed}
+    \centering
+    \includegraphics[width=0.8\linewidth]{\figdir/cassed_model.png}
+    \caption{Überblick über die CASSED Methode. Quelle: \cite{Kuzina.2023}.}
+    \label{f:cassed}
 \end{figure}
 
 Im Vergleich zu anderen kontextbasierten Klassifizierungsmethoden erzielt die CASSED Methode deutlich bessere Ergebnisse. Allein durch den reinen Einsatz von BERT schneidet das Modell besser ab und ist durch die regelbasierte Schicht sogar noch präziser.
@@ -166,12 +166,31 @@ Einen ähnlichen Ansatz verfolgen auch Guo, Liu et al. \cite{Guo.2021} mit ihrem
 % ###########################################
 \subsection{Anwendung in der Cloud Security}
 % wofür ist das dann gut
+Wie in Kapitel \ref{dlp-kapitel} beschrieben, ist die Datenklassifikation ein wichtiger Bereich in DLP-Systemen, da die verschiedenen Sicherheitsmaßnahmen und Techniken auf der Kenntnis über die Sicherheitsstufen der Daten basieren. Deshalb bieten viele DLP-Systeme Funktionen zur automatischen Erkennung und Klassifizierung von sensiblen Daten.
+Google Cloud Data Loss Prevention ist ein vollständig verwalteter Dienst, der es Unternehmen ermöglicht, sensible Daten in Cloud- und lokalen Umgebungen zu erkennen, zu klassifizieren und zu schützen. Der Dienst nutzt dabei maschinelles Lernen und Mustervergleichstechniken, um bis zu 150 verschiedenen Datentypen zu identifizieren und sie anhand dessen zu klassifizieren. Durch die Einstufung der Daten in verschiedene Datentypen und Klassen können in dem Cloud-DLP-System dann verschiedene Schutzmaßnahmen definiert werden \cite{GoogleCloud.30.11.2023}.
 
-\subsubsection{Labeling für andere Maßnahmen}
-% verschlüsselung
-% Access Rights
-% Versenden
-% fingerprint
+Das Software-Produkt Digital Guardian Cloud Data Protection ist ein Cloud-DLP-System des Anbieters Fortra. Das System besteht aus vielen verschiedenen Modulen, wobei eines davon Datenklassifizierung ist. Das Modul identifiziert und klassifiziert sensible Daten und hängen ihnen verschiedene Sicherheitsstufen-Labels an. Dabei verwendet das Modul automatische inhalts- und kontextbasierte Klassifizierung, doch auch eine manuelle Klassifizierung durch den Benutzer ist möglich. Das Cloud-DLP-System von Fortra ist dabei mit allen gängigen Cloud-Plattform-Anbietern kompatibel \cite{DigitalGuardian.30.11.2023}.
+
+Die Klassifizierung und das entsprechende Markieren der Daten dient in Cloud-DLP-Systemen anschließend dazu, geeignete Schutzmaßnahmen zu definieren. Im Folgenden werden verschiedene Techniken beschrieben, die eine versehentliche Offenlegung von sensiblen Daten verhindern.
+
+% Wasserzeichen
+Eine der ersten Techniken zum Schutz von sensiblen Daten ist die Wasserzeichen-Methode. Dabei werden spezifische Identifikationsmerkmale oder Muster durch einen Algorithmus in Daten eingebettet, um die Quelle oder den Eigentümer zu kennzeichnen. Wasserzeichen dienen dazu, den Ursprung von Daten zu verfolgen und zu überwachen, um unbefugte Verbreitung oder Weitergabe zu erkennen. Systeme können anhand der eingebetteten Wasserzeichen erkennen, wenn Daten ohne Berechtigung weitergegeben oder veröffentlicht werden und Maßnahmen ergreifen. So können mithilfe von Wasserzeichen Datenlecks und -manipulationen erkannt und verhindert werden \cite{Naik.2019}.
+
+%Blacklisting, Whitelisting
+Eine weit verbreitete Methode in DLP-Systemen ist das Blacklisting oder Whitelisting. Dabei wird ein Modell verwendet, das aus Regeln besteht, die Muster böswilliger Aktivitäten oder markierte sensible Daten definieren, die das Unternehmensnetzwerk nicht verlassen dürfen. Beim Whitelisting wird definiert, welche Daten geteilt werden dürfen, beim Blacklisting werden die Daten und Muster definiert, die nicht geteilt werden dürfen. So kann ein DLP-System anhand dieser Regeln und Listen Transaktionen blockieren und so eine versehentliche Offenlegung von sensiblen Daten verhindern. Allerdings ist es für böswillige Insider oft leicht, eine Blacklisting-basierte Erkennung zu umgehen, da je nach Berechtigungen die Regeln und Listen bekannt sind \cite{Costante.2016}.
+
+% Verschlüsselung
+Die Kryptografie ist die am häufigsten verwendete Technik im Datenschutz. Sie wandelt Informationen von einem lesbaren Format in ein verschlüsseltes Format um. Je nach Sicherheitsstufe der Daten können unterschiedliche Verschlüsselungsalgorithmen und kryptografische Funktionen zum Einsatz kommen \cite{HerreraMontano.2022}. Dabei ist es nicht sinnvoll, einfach alle vorhandenen Daten verschlüsselt zu speichern oder zu übertragen. Insbesondere bei großen Datenmengen kann das schnell zu Performance-Problemen führen. Die Verschlüsselung von Daten erfordert Rechenressourcen und erhöhten Speicherbedarf. Deshalb wird meistens nur nach Bedarf verschlüsselt \cite{Arki.2023}.
+Zardari, Jung et al. \cite{Zardari.2014} kategorisieren in ihrem vorgeschlagenen Modell Daten nach sensibel und nicht-sensibel. Nicht-sensible Daten werden direkt im Cloud-Speicher gespeichert, sensible Daten werden vorher mit dem RSA-Algorithmus verschlüsselt.
+
+% Hashing
+Das Fingerprinting-Verfahren, das in \ref{fingerprint} zur automatischen Klassifizierung beschrieben wurde, kann auch als Schutzmaßnahme dienen. Mit einem Vergleich von Datei- oder Daten-Hashes kann der ausgehende Datenverkehr überwacht werden. Ein DLP-System gleicht dabei die Hashes der Daten im Datenverkehr mit denen der als sensibel markierten Daten ab und kann so bei Übereinstimmung ein Datenleck erkennen und verhindern. Auch hier ist die Wahl des Hashing-Verfahrens relevant, wie verlässlich auch veränderte Daten noch erkannt werden \cite{HerreraMontano.2022}.
+
+% Cloud Shredder
+Zhang, Jing et al. \cite{Zhang.2011} stellen eine Methode vor, um die versehentliche Offenlegung von sensiblen Daten zu verhindern, selbst wenn bspw. ein ungeschützter Laptop verloren geht. Der Ansatz namens 'Cloud Shredder' sieht vor, dass vertrauliche Dateien geschreddert, also in Stücke geteilt wird, und ein Teil auf dem physischen Gerät und ein Teil im Cloud-Speicher gespeichert wird. Nur, wenn man Zugriff auf beide Bereiche hat, kann man die sensiblen Dateien lesen oder verarbeiten.
+
+% DocGuard
+Ein weiterer Ansatz namens 'DocGuard' wurde von Gui, Puzis et al. in \cite{Guri.2019} vorgestellt. Die Idee besteht darin, dass bereits vorhandene Antiviren-Software durchgesickerte Daten identifizieren und den Zugriff blockieren. Das funktioniert, indem DocGuard bei sensiblen Daten eine versteckte Signatur einer bekannten Schadsoftware einfügt. Wenn diese Daten das Unternehmensnetzwerk verlassen, erkennt eine Antiviren-Software die schadhafte Signatur als Bedrohung und greift ein.
 
 % BrowserFlow
-% DocGuard?
+In Unternehmen werden externe Cloud-Dienste wie Google Docs immer mehr genutzt. Dabei können Benutzer schnell gegen unternehmensinterne Daten-Richtlinien verstoßen. Schnell sind sensible Daten aus einem geschützten Cloud-Dokument in ein ungeschütztes Cloud-Dokument kopiert und damit offengelegt. Papagiannis, Watcharapichat et al. \cite{Papagiannis.2016} schlagen als Lösung für dieses Problem ihren Ansatz namens 'BrowserFlow' vor. BrowserFlow ist eine browserbasierte Middleware, die Datenflüsse verfolgt, indem sie die Ähnlichkeit zwischen Textfragmenten erkennt. Anhand von gekennzeichneten Daten können so nicht autorisierte Datenflüsse identifiziert und verhindert werden.

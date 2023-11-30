@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  28 NOV 2023 18:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  30 NOV 2023 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,10 +352,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./0_abstract.tex) (./1_introduction.tex) (./2_threat_description.tex [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+ (./0_abstract.tex) (./1_introduction.tex) [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-]) (./3_cloud_data_leakage_prevention.tex [2] [3]
+] (./2_threat_description.tex) (./3_cloud_data_leakage_prevention.tex [2] [3]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -363,10 +363,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4]) (./4_Klassifizierung.tex [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
+) [4]) (./4_Klassifizierung.tex [5] [6]
 <figures/clustering_daten.png, id=26, 256.96pt x 250.9375pt>
 File: figures/clustering_daten.png Graphic file (type png)
 <use figures/clustering_daten.png>
@@ -388,13 +385,13 @@ File: figures/cassed_input.png Graphic file (type png)
 <use figures/cassed_input.png>
 Package pdftex.def Info: figures/cassed_input.png  used on input line 141.
 (pdftex.def)             Requested size: 201.60077pt x 178.56131pt.
- [8 <./figures/clustering_daten.png> <./figures/clustering_dendrogramm.png> <./figures/cassed_input.png>]
-<figures/cassed_model.png, id=43, 1074.26344pt x 951.555pt>
+ [8 <./figures/clustering_daten.png> <./figures/clustering_dendrogramm.png>]
+<figures/cassed_model.png, id=42, 1074.26344pt x 951.555pt>
 File: figures/cassed_model.png Graphic file (type png)
 <use figures/cassed_model.png>
 Package pdftex.def Info: figures/cassed_model.png  used on input line 152.
 (pdftex.def)             Requested size: 201.60077pt x 178.56131pt.
-) (./5_ausblick.tex) (./seminararbeit.bbl
+ [9 <./figures/cassed_input.png> <./figures/cassed_model.png>]) (./5_ausblick.tex [10]) (./seminararbeit.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 26--30
 \T1/ptm/m/n/8 https://de.statista.com/statistik/daten/studie/177484/umfrage/einsatz-
  []
@@ -455,9 +452,6 @@ Underfull \hbox (badness 1783) in paragraph at lines 151--154
  []
 
 
-Overfull \vbox (6.25221pt too high) has occurred while \output is active []
-
- [9 <./figures/cassed_model.png>]
 Underfull \hbox (badness 3930) in paragraph at lines 190--194
 []\T1/ptm/m/n/8 J. Ven-horst, ``Warum ei-ne ma-nu-el-le da-ten-klas-
  []
@@ -482,7 +476,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--254
 \T1/ptm/m/n/8 https://www.analyticsvidhya.com/blog/2021/06/single-link-hierarchical-
  []
 
-)
+
+Overfull \vbox (12.434pt too high) has occurred while \output is active []
+
+ [11])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -494,25 +491,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[10] (./seminararbeit.aux)
+
+Overfull \vbox (1.63599pt too high) has occurred while \output is active []
+
+ [12] (./seminararbeit.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6559 strings out of 474927
- 106043 string characters out of 5763541
- 1950785 words of memory out of 5000000
- 28014 multiletter control sequences out of 15000+600000
+ 6569 strings out of 474927
+ 106199 string characters out of 5763541
+ 1962785 words of memory out of 5000000
+ 28024 multiletter control sequences out of 15000+600000
  663188 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,1859b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on seminararbeit.pdf (10 pages, 901251 bytes).
+Output written on seminararbeit.pdf (12 pages, 914526 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -14,45 +14,45 @@ Database file #1: ref.bib
 Warning--empty journal in NIST.2014
 
 Done.
-You've used 46 entries,
+You've used 47 entries,
             4024 wiz_defined-function locations,
-            1107 strings with 16636 characters,
-and the built_in function-call counts, 32873 in all, are:
-= -- 2667
-> -- 742
+            1113 strings with 16883 characters,
+and the built_in function-call counts, 33234 in all, are:
+= -- 2696
+> -- 746
 < -- 236
-+ -- 379
-- -- 132
-* -- 1547
-:= -- 5105
-add.period$ -- 107
-call.type$ -- 46
-change.case$ -- 71
++ -- 381
+- -- 133
+* -- 1560
+:= -- 5176
+add.period$ -- 109
+call.type$ -- 47
+change.case$ -- 72
 chr.to.int$ -- 546
-cite$ -- 47
-duplicate$ -- 2405
-empty$ -- 2783
-format.name$ -- 164
-if$ -- 7508
+cite$ -- 48
+duplicate$ -- 2435
+empty$ -- 2819
+format.name$ -- 165
+if$ -- 7583
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 432
-newline$ -- 189
-num.names$ -- 72
-pop$ -- 1075
+int.to.str$ -- 47
+missing$ -- 439
+newline$ -- 194
+num.names$ -- 73
+pop$ -- 1097
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2530
+skip$ -- 2558
 stack$ -- 0
-substring$ -- 1359
-swap$ -- 1869
+substring$ -- 1360
+swap$ -- 1885
 text.length$ -- 54
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 46
+type$ -- 47
 warning$ -- 1
-while$ -- 171
-width$ -- 48
-write$ -- 488
+while$ -- 172
+width$ -- 49
+write$ -- 498
 (There was 1 warning)

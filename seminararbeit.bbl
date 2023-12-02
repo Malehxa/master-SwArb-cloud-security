@@ -224,10 +224,17 @@ J.~Frochte, ``Maschinelles lernen -- {\"u}berblick und abgrenzung,'' in
   0.4em\relax M{\"u}nchen: {Carl Hanser Verlag GmbH {\&} Co. KG}, 2018, pp.
   13--31.
 
+\bibitem{Shah.03.03.2021}
+\BIBentryALTinterwordspacing
+R.~Shah, ``Introduction to k-nearest neighbors (knn) algorithm: A powerful
+  supervised machine learning algorithm,'' 03.03.2021. [Online]. Available:
+  \url{\url{https://ai.plainenglish.io/introduction-to-k-nearest-neighbors-knn-algorithm-e8617a448fa8}}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Frochte.2018c}
-------, ``Entscheidungsb{\"a}ume,'' in \emph{Maschinelles Lernen}, J.~Frochte,
-  Ed.\hskip 1em plus 0.5em minus 0.4em\relax M{\"u}nchen: {Carl Hanser Verlag
-  GmbH {\&} Co. KG}, 2018, pp. 117--160.
+J.~Frochte, ``Entscheidungsb{\"a}ume,'' in \emph{Maschinelles Lernen},
+  J.~Frochte, Ed.\hskip 1em plus 0.5em minus 0.4em\relax M{\"u}nchen: {Carl
+  Hanser Verlag GmbH {\&} Co. KG}, 2018, pp. 117--160.
 
 \bibitem{Kaur.2016}
 K.~Kaur and V.~Zandu, ``A secure data classification model in cloud computing

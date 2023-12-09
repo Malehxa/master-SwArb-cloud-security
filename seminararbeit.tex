@@ -15,10 +15,12 @@
 \usepackage{tabulary}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{url}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc} % Trennen von Wörtern mit Umlauten
 \usepackage{german} % Damit z.B. "Literatur" statt "References" da steht
+
 
 %\renewcommand{\arraystretch}{1.5}
 
@@ -54,7 +56,7 @@
 \section{Einführung}
 \input{1_introduction.tex}
 
-\section{Accidental Cloud Data Disclosure} \label{threat-kapitel}
+\section{Versehentliche Offenlegung von Daten in der Cloud} \label{threat-kapitel}
 \input{2_threat_description.tex}
 
 \section{Cloud Data Leakage Prevention} \label{dlp-kapitel}
@@ -67,8 +69,7 @@
 \input{5_ausblick.tex}
 
 % references ieeetr
-\balance
-\bibliographystyle{IEEEtran}
+\bibliographystyle{ieeetr}
 \bibliography{ref}
 
 \end{document}

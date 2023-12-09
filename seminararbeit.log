@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  2 DEC 2023 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  9 DEC 2023 15:50
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**seminararbeit
-(./seminararbeit.tex
+**"c:/Users/Anna-/Studium/INF-Master/INF-M 2/SwArb/Seminararbeit/master-SwArb-cloud-security/seminararbeit"
+(c:/Users/Anna-/Studium/INF-Master/INF-M 2/SwArb/Seminararbeit/master-SwArb-cloud-security/seminararbeit.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (./IEEEtran.cls
@@ -17,8 +18,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountB=\count186
 \@IEEEtrantmpcountC=\count187
 \@IEEEtrantmptoksA=\toks17
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-03.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -33,52 +33,42 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 \IEEEquantizedlength=\dimen147
 \IEEEquantizedlengthdiff=\dimen148
 \IEEEquantizedtextheightdiff=\dimen149
@@ -119,25 +109,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-)
-(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen164
-))
-(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen165
-)
-(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count266
@@ -187,25 +173,20 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-
-(c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-(c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
@@ -215,39 +196,30 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \c@ALC@depth=\count281
 \ALC@tlm=\skip54
 \algorithmicindent=\skip55
-)
-(c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen173
 \Gin@req@width=\dimen174
-)
-(c:/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
-
-(c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
-
-(c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -257,25 +229,20 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-)
-(c:/texlive/2023/texmf-dist/tex/latex/preprint/balance.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen175
-)
-(c:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip56
 \multirow@cntb=\count282
 \multirow@dima=\skip57
 \bigstrutjot=\dimen176
-)
-(c:/texlive/2023/texmf-dist/tex/latex/multirow/bigstrut.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/multirow/bigstrut.sty
 Package: bigstrut 2021/03/15 v2.8 Provide larger struts in tabulars
-)
-(c:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-
-(c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen177
 \ar@mcellbox=\box55
@@ -292,19 +259,16 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen183
 \TX@cols=\count283
 \TX@ftn=\toks25
-)
-(c:/texlive/2023/texmf-dist/tex/latex/tabulary/tabulary.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 \TY@count=\count284
 \TY@linewidth=\dimen184
 \tymin=\dimen185
 \tymax=\dimen186
 \TY@tablewidth=\dimen187
-)
-(c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen188
 \captionmargin=\dimen189
@@ -316,17 +280,7 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen195
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
-Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
-blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
-lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
- {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
-nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
-e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
-malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
-ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
-ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
-\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
-\fi  on input line 1175.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\normalfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi \fi  on input line 1175.
 )
 
 Package caption Warning: Unknown document class (or package),
@@ -341,47 +295,43 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count287
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count288
-)
-(c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks26
 \inpenc@posthook=\toks27
-)
-(c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
-2.
-
-(c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
+ (c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-))
-(c:/texlive/2023/texmf-dist/tex/generic/german/german.sty v2.5e 1998-07-08
+)) (c:/texlive/2023/texmf-dist/tex/generic/german/german.sty v2.5e 1998-07-08
 Package: german 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen196
 german -- \language number for Austrian undefined, default 35 used.
-)
-(c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box57
-)
-(./seminararbeit.aux)
+) (./seminararbeit.aux)
 \openout1 = `seminararbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 -- Lines per column: 56 (exact).
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -399,77 +349,56 @@ LaTeX Font Info:    ... okay on input line 30.
 \everyMPtoPDFconversion=\toks29
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-
-(./0_abstract.tex) (./1_introduction.tex [1{c:/texlive/2023/texmf-var/fonts/map
-/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.e
-nc}
+ (./0_abstract.tex) (./1_introduction.tex [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]) (./2_threat_description.tex [2]) (./3_cloud_data_leakage_prevention.tex
+Underfull \hbox (badness 3557) in paragraph at lines 8--13
+[]\T1/ptm/m/n/10 Gartner klas-si-fi-ziert DLP-Lösungen in drei Ka-te-go-ri-
+ []
+
 <figures/nist.png, id=13, 232.87pt x 217.81375pt>
 File: figures/nist.png Graphic file (type png)
 <use figures/nist.png>
 Package pdftex.def Info: figures/nist.png  used on input line 21.
 (pdftex.def)             Requested size: 151.20154pt x 141.431pt.
-
 [3]) (./4_Klassifizierung.tex
-Underfull \hbox (badness 8000) in paragraph at lines 2--3
-[]\T1/ptm/m/n/10 Unternehmen set-zen im-mer mehr auf cloud-ba-sier-te
- []
-
 LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
-
-(c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
-
-
-(c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [4 <./figures/nist.png>] [5]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 96
-.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 92.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [6]
 <figures/knn.png, id=29, 722.7pt x 498.86375pt>
 File: figures/knn.png Graphic file (type png)
 <use figures/knn.png>
-Package pdftex.def Info: figures/knn.png  used on input line 131.
+Package pdftex.def Info: figures/knn.png  used on input line 127.
 (pdftex.def)             Requested size: 176.39923pt x 121.76216pt.
-
-
-LaTeX Warning: Citation `Shah.03.03.2021' on page 7 undefined on input line 132
-.
-
-
-LaTeX Warning: Citation `Shah.03.03.2021' on page 7 undefined on input line 132
-.
-
-[7 <./figures/knn.png>]
-<figures/clustering_daten.png, id=34, 256.96pt x 250.9375pt>
+ [7 <./figures/knn.png>]
+<figures/clustering_daten.png, id=37, 256.96pt x 250.9375pt>
 File: figures/clustering_daten.png Graphic file (type png)
 <use figures/clustering_daten.png>
-Package pdftex.def Info: figures/clustering_daten.png  used on input line 165.
+Package pdftex.def Info: figures/clustering_daten.png  used on input line 161.
 (pdftex.def)             Requested size: 118.4403pt x 115.66621pt.
-<figures/clustering_dendrogramm.png, id=36, 301.125pt x 239.89626pt>
+<figures/clustering_dendrogramm.png, id=39, 301.125pt x 239.89626pt>
 File: figures/clustering_dendrogramm.png Graphic file (type png)
 <use figures/clustering_dendrogramm.png>
-Package pdftex.def Info: figures/clustering_dendrogramm.png  used on input line
- 171.
+Package pdftex.def Info: figures/clustering_dendrogramm.png  used on input line 167.
 (pdftex.def)             Requested size: 118.4403pt x 94.35715pt.
 
-Underfull \hbox (badness 1389) in paragraph at lines 172--172
+Underfull \hbox (badness 1389) in paragraph at lines 168--168
 []\T1/ptm/m/n/9 (b) |Den-dro-gramm. Quel-le: In
  []
 
@@ -477,107 +406,144 @@ Underfull \hbox (badness 1389) in paragraph at lines 172--172
 <figures/cassed_input.png, id=45, 1074.26344pt x 951.555pt>
 File: figures/cassed_input.png Graphic file (type png)
 <use figures/cassed_input.png>
-Package pdftex.def Info: figures/cassed_input.png  used on input line 197.
+Package pdftex.def Info: figures/cassed_input.png  used on input line 193.
 (pdftex.def)             Requested size: 201.60077pt x 178.56131pt.
 <figures/cassed_model.png, id=46, 1282.03969pt x 765.6103pt>
 File: figures/cassed_model.png Graphic file (type png)
 <use figures/cassed_model.png>
-Package pdftex.def Info: figures/cassed_model.png  used on input line 208.
+Package pdftex.def Info: figures/cassed_model.png  used on input line 204.
 (pdftex.def)             Requested size: 252.0pt x 150.47916pt.
+ [9 <./figures/cassed_input.png> <./figures/cassed_model.png>] [10]) (./5_ausblick.tex) (./seminararbeit.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+[]\T1/ptm/m/n/8 KPMG, ``Nut-zung von Cloud Com-pu-ting in Un-ter-neh-
+ []
 
-[9 <./figures/cassed_input.png>] [10 <./figures/cassed_model.png>])
-(./5_ausblick.tex) [11] (./seminararbeit.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\T1/ptm/m/n/8 men in Deutsch-land in den Jah-ren 2011 bis 2022.''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\T1/ptm/m/n/8 https : / / de . statista . com / statistik / daten / studie / 177484 / umfrage /
+ []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 4--9
+\T1/ptm/m/n/8 einsatz-[]von-[]cloud-[]computing-[]in-[]deutschen-[]unternehmen-[]2011/$, 2022.
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 26--30
-\T1/ptm/m/n/8 https://de.statista.com/statistik/daten/studie/177484/umfrage/ein
-satz-
+[]\T1/ptm/m/n/8 CA Tech-no-lo-gies, ``2018 In-si-der Thre-at Re-port.'' $https :
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 50--53
-[]\T1/ptm/m/n/8 CA Tech-no-lo-gies, ``2018 in-si-der thre-at re-port,''
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+\T1/ptm/m/n/8 / / crowdresearchpartners . com / wp-[]content / uploads / 2017 / 07 /
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 63--67
-[]\T1/ptm/m/n/8 Cloud Se-cu-ri-ty Al-lian-ce, ``Top threats to cloud
+Underfull \hbox (badness 7308) in paragraph at lines 32--36
+[]\T1/ptm/m/n/8 R. Chugh and A. Ba-les, ``Markt-füh-rer für Da-ta Loss Pre-
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 63--67
-\T1/ptm/m/n/8 com-pu-ting pan-de-mic ele-ven,'' 2022. [On-li-ne]. Availa-
+Underfull \hbox (badness 2970) in paragraph at lines 32--36
+\T1/ptm/m/n/8 ven-ti-on.'' $https : / / www . gartner . com / doc / reprints ? id = 1-[]2EYVL2C2 \ &ct =
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 63--67
-\T1/ptm/m/n/8 ble: https://cloudsecurityalliance.org/artifacts/top-threats-to-c
-loud-
+Underfull \hbox (badness 10000) in paragraph at lines 38--43
+[]\T1/ptm/m/n/8 Cloud Se-cu-ri-ty Al-lian-ce, ``Top Threats to Cloud Com-pu-ting
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 110--114
-[]\T1/ptm/m/n/8 NIST, ``Fra-me-work for im-pro-ving cri-ti-cal in-fra-
+Underfull \hbox (badness 10000) in paragraph at lines 38--43
+\T1/ptm/m/n/8 Pan-de-mic Ele-ven.'' $https : / / cloudsecurityalliance . org / artifacts /
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 110--114
-\T1/ptm/m/n/8 struc-ture cy-ber-se-cu-ri-ty,'' 2014. [On-li-ne]. Availa-ble:
+Underfull \hbox (badness 10000) in paragraph at lines 38--43
+\T1/ptm/m/n/8 top-[]threats-[]to-[]cloud-[]computing-[]pandemic-[]eleven$, 2022.  Letz-ter
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
+[]\T1/ptm/m/n/8 PSNI, ``Po-li-ce Ser-vice of Nor-thern Ire-land state-ment on
  []
 
 
-Overfull \hbox (12.2533pt too wide) in paragraph at lines 110--114
-\T1/ptm/m/n/8 https://www.nist.gov/system/files/documents/cyberframework/cybers
-ecurity-
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
+\T1/ptm/m/n/8 da-ta breach | PS-NI.'' $https : / / www . psni . police . uk / latest-[]news /
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 136--140
-\T1/ptm/m/n/8 von 2010 bis 2022 und pro-gno-se bis 2024
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+\T1/ptm/m/n/8 https : / / www . nist . gov / system / ^^\les / documents / cyberframework /
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 136--140
-\T1/ptm/m/n/8 (in mil-li-ar-den us-dollar),'' 2023. [On-li-ne]. Availa-ble:
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+\T1/ptm/m/n/8 cybersecurity-[]framework-[]021214 . pdf$, 2014.  Letz-ter Zu-griff:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--140
-\T1/ptm/m/n/8 https://de.statista.com/statistik/daten/studie/194117/umfrage/ums
-atz-
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+[]\T1/ptm/m/n/8 Gartner, ``Um-satz mit Software-as-a-Service (SaaS) welt-weit
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 151--154
-\T1/ptm/m/n/8 aware de-ep sen-si-ti-vi-ty la-bel-ling on con-ver-sa-tio-nal da-
-ta,'' \T1/ptm/m/it/8 Ap-p-lied
+Underfull \hbox (badness 1533) in paragraph at lines 102--107
+\T1/ptm/m/n/8 von 2010 bis 2022 und Pro-gno-se bis 2024 (in Mil-li-ar-den US-
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 190--194
-[]\T1/ptm/m/n/8 J. Ven-horst, ``Warum ei-ne ma-nu-el-le da-ten-klas-
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+\T1/ptm/m/n/8 Dollar).'' $https : / / de . statista . com / statistik / daten / studie / 194117 / umfrage /
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 190--194
-\T1/ptm/m/n/8 si-fi-zie-rung nicht sinn-voll ist,'' 2019. [On-li-ne].
+Underfull \hbox (badness 7221) in paragraph at lines 150--154
+[]\T1/ptm/m/n/8 J. Ven-horst, ``Warum ei-ne ma-nu-el-le Da-ten-klas-si-fi-zie-rung nicht
  []
 
 
-Underfull \hbox (badness 7415) in paragraph at lines 257--261
-[]\T1/ptm/m/n/8 H. Bonthu, ``Single-link hier-ar-chi-cal clu-ste-ring
+Underfull \hbox (badness 10000) in paragraph at lines 150--154
+\T1/ptm/m/n/8 sinn-voll ist.'' $https : / / www . computerweekly . com / de / meinung /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
-\T1/ptm/m/n/8 clear-ly ex-plai-ned!'' 2023. [On-li-ne]. Availa-ble:
+Underfull \hbox (badness 10000) in paragraph at lines 150--154
+\T1/ptm/m/n/8 Warum-[]eine-[]manuelle-[]Datenklassi^^\zierung-[]nicht-[]sinnvoll-[]ist$, 2019.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
-\T1/ptm/m/n/8 https://www.analyticsvidhya.com/blog/2021/06/single-link-hierarch
-ical-
+Underfull \hbox (badness 10000) in paragraph at lines 186--191
+\T1/ptm/m/n/8 io / introduction-[]to-[]k-[]nearest-[]neighbors-[]knn-[]algorithm-[]e8617a448fa8$,
  []
 
-[12])
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--217
+[]\T1/ptm/m/n/8 H. Bonthu, ``Single-Link Hier-ar-chi-cal Clu-ste-ring Clear-ly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--217
+\T1/ptm/m/n/8 Ex-plai-ned!.'' $https : / / www . analyticsvidhya . com / blog / 2021 / 06 /
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 213--217
+\T1/ptm/m/n/8 single-[]link-[]hierarchical-[]clustering-[]clearly-[]explained/$, 2023.  Letz-ter
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 224--227
+[]\T1/ptm/m/n/8 Digital Guar-di-an, ``En-ter-pri-se IP & DLP Soft-wa-re.'' $https : / / www .
+ []
+
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -589,43 +555,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-
-Overfull \vbox (1.73193pt too high) has occurred while \output is active []
-
-
-[13] (./seminararbeit.aux)
+[12] (./seminararbeit.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 6619 strings out of 474927
- 106745 string characters out of 5763541
- 1961785 words of memory out of 5000000
- 28070 multiletter control sequences out of 15000+600000
- 663809 words of font info for 137 fonts, out of 8000000 for 9000
+ 6715 strings out of 474927
+ 108216 string characters out of 5763541
+ 1951785 words of memory out of 5000000
+ 28154 multiletter control sequences out of 15000+600000
+ 666909 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1634b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/ty
-pe1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/ut
-mb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texl
-ive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on seminararbeit.pdf (13 pages, 1013409 bytes).
+ 57i,11n,65p,1704b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on seminararbeit.pdf (12 pages, 1011609 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

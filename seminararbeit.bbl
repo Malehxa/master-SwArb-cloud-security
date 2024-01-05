@@ -81,12 +81,6 @@ NIST, ``{Framework for Improving Critical Infrastructure Cybersecurity}.''
   2014.
 \newblock Letzter Zugriff: 07.12.2023.
 
-\bibitem{Hussain.2022}
-M.~E. Hussain and R.~Hussain, ``{Cloud Security as a Service Using Data Loss
-  Prevention: Challenges and Solution},'' in {\em International Conference on
-  Internet of Things and Connected Technologies}, (Cham), pp.~98--106,
-  Springer, 2021.
-
 \bibitem{HerreraMontano.2022}
 I.~{Herrera Montano}, J.~J. {Garc{\'i}a Aranda}, J.~{Ramos Diaz}, S.~{Molina
   Card{\'i}n}, I.~de~{La Torre D{\'i}ez}, and J.~J. P.~C. Rodrigues, ``{Survey
@@ -134,28 +128,11 @@ A.~Shabtai, Y.~Elovici, L.~Rokach, A.~Shabtai, Y.~Elovici, and L.~Rokach, ``A
   taxonomy of data leakage prevention solutions,'' {\em A survey of data
   leakage detection and prevention solutions}, pp.~11--15, 2012.
 
-\bibitem{Divadari.2023}
-S.~Divadari, J.~Surya~Prasad, and P.~Honnavalli, ``{Managing Data Protection
-  and Privacy on Cloud},'' in {\em Proceedings of 3rd International Conference
-  on Recent Trends in Machine Learning, IoT, Smart Cities and Applications:
-  ICMISC 2022}, pp.~383--396, Springer, 2023.
-
-\bibitem{Alsuwaie.2021}
-M.~A. Alsuwaie, B.~Habibnia, and P.~Gladyshev, ``{Data Leakage Prevention
-  Adoption Model \& DLP Maturity Level Assessment},'' in {\em 2021
-  International Symposium on Computer Science and Intelligent Controls
-  (ISCSIC)}, pp.~396--405, IEEE, 2021.
-
 \bibitem{Venhorst.2019}
 J.~Venhorst, ``{Warum eine manuelle Datenklassifizierung nicht sinnvoll ist}.''
   \url{https://www.computerweekly.com/de/meinung/Warum-eine-manuelle-Datenklassifizierung-nicht-sinnvoll-ist},
   2019.
 \newblock Letzer Zugriff: 08.12.2023.
-
-\bibitem{Gugelmann.2015}
-D.~Gugelmann, P.~Studerus, V.~Lenders, and B.~Ager, ``Can content-based data
-  loss prevention solutions prevent data leakage in web traffic?,'' {\em IEEE
-  Security \& Privacy}, vol.~13, no.~4, pp.~52--59, 2015.
 
 \bibitem{Ong.2017}
 Y.~J. Ong, M.~Qiao, R.~Routray, and R.~Raphael, ``Context-aware data loss
@@ -167,6 +144,11 @@ X.~Shu, D.~Yao, and E.~Bertino, ``Privacy-preserving detection of sensitive
   data exposure,'' {\em IEEE transactions on information forensics and
   security}, vol.~10, no.~5, pp.~1092--1103, 2015.
 
+\bibitem{Frochte.2018b}
+J.~Frochte, ``Maschinelles lernen -- {\"u}berblick und abgrenzung,'' in {\em
+  Maschinelles Lernen} (J.~Frochte, ed.), pp.~13--31, M{\"u}nchen: {Carl Hanser
+  Verlag GmbH {\&} Co. KG}, 2018.
+
 \bibitem{Kamath.2019}
 U.~Kamath, J.~Liu, and J.~Whitaker, {\em Deep learning for NLP and speech
   recognition}.
@@ -176,11 +158,6 @@ U.~Kamath, J.~Liu, and J.~Whitaker, {\em Deep learning for NLP and speech
 M.~A. Zardari, L.~T. Jung, and N.~Zakaria, ``K-nn classifier for data
   confidentiality in cloud computing,'' in {\em 2014 International Conference
   on Computer and Information Sciences (ICCOINS)}, pp.~1--6, ieee, 2014.
-
-\bibitem{Frochte.2018b}
-J.~Frochte, ``Maschinelles lernen -- {\"u}berblick und abgrenzung,'' in {\em
-  Maschinelles Lernen} (J.~Frochte, ed.), pp.~13--31, M{\"u}nchen: {Carl Hanser
-  Verlag GmbH {\&} Co. KG}, 2018.
 
 \bibitem{Shah.03.03.2021}
 R.~Shah, ``{Introduction to k-Nearest Neighbors (kNN) Algorithm: A Powerful

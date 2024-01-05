@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  9 DEC 2023 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.7)  5 JAN 2024 13:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -489,57 +489,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--83
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
 []\T1/ptm/m/n/8 Gartner, ``Um-satz mit Software-as-a-Service (SaaS) welt-weit
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 102--107
+Underfull \hbox (badness 1533) in paragraph at lines 96--101
 \T1/ptm/m/n/8 von 2010 bis 2022 und Pro-gno-se bis 2024 (in Mil-li-ar-den US-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
 \T1/ptm/m/n/8 Dollar).'' $https : / / de . statista . com / statistik / daten / studie / 194117 / umfrage /
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 150--154
+Underfull \hbox (badness 7221) in paragraph at lines 132--136
 []\T1/ptm/m/n/8 J. Ven-horst, ``Warum ei-ne ma-nu-el-le Da-ten-klas-si-fi-zie-rung nicht
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--154
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 \T1/ptm/m/n/8 sinn-voll ist.'' $https : / / www . computerweekly . com / de / meinung /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--154
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 \T1/ptm/m/n/8 Warum-[]eine-[]manuelle-[]Datenklassi^^\zierung-[]nicht-[]sinnvoll-[]ist$, 2019.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--191
+Underfull \hbox (badness 10000) in paragraph at lines 163--168
 \T1/ptm/m/n/8 io / introduction-[]to-[]k-[]nearest-[]neighbors-[]knn-[]algorithm-[]e8617a448fa8$,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--217
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
 []\T1/ptm/m/n/8 H. Bonthu, ``Single-Link Hier-ar-chi-cal Clu-ste-ring Clear-ly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--217
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
 \T1/ptm/m/n/8 Ex-plai-ned!.'' $https : / / www . analyticsvidhya . com / blog / 2021 / 06 /
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 213--217
+Underfull \hbox (badness 1661) in paragraph at lines 190--194
 \T1/ptm/m/n/8 single-[]link-[]hierarchical-[]clustering-[]clearly-[]explained/$, 2023.  Letz-ter
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 224--227
+Underfull \hbox (badness 1424) in paragraph at lines 201--204
 []\T1/ptm/m/n/8 Digital Guar-di-an, ``En-ter-pri-se IP & DLP Soft-wa-re.'' $https : / / www .
  []
 
@@ -560,21 +560,17 @@ Before submitting the final camera ready copy, remember to:
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 6715 strings out of 474927
- 108216 string characters out of 5763541
- 1951785 words of memory out of 5000000
- 28154 multiletter control sequences out of 15000+600000
+ 6711 strings out of 474927
+ 108156 string characters out of 5763541
+ 1948785 words of memory out of 5000000
+ 28150 multiletter control sequences out of 15000+600000
  666909 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,1704b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on seminararbeit.pdf (12 pages, 1011609 bytes).
+Output written on seminararbeit.pdf (12 pages, 1010926 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
